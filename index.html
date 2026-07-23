@@ -2,18 +2,23 @@
 <html lang="zh-CN">
   <head>
     <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width,initial-scale=1.0" />
+    <meta
+      name="viewport"
+      content="width=device-width,initial-scale=1.0,viewport-fit=cover"
+    />
+    <meta name="theme-color" content="#667eea" />
+    <meta name="apple-mobile-web-app-capable" content="yes" />
+    <meta name="apple-mobile-web-app-title" content="AI 训练师" />
+    <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
     <title>人工智能训练师模拟考试系统</title>
+    <link rel="manifest" href="manifest.webmanifest" />
+    <link rel="icon" href="assets/app-icon.svg" type="image/svg+xml" />
+    <link rel="apple-touch-icon" href="assets/apple-touch-icon.png" />
     <link rel="stylesheet" href="css/styles.css" />
   </head>
   <body>
     <div class="container">
-      <div class="tabs">
-        <div class="tab active" data-tab="mode" id="modeTab">选择模式</div>
-        <div class="tab" data-tab="exam" id="examTab">开始考试</div>
-        <div class="tab" data-tab="result" id="resultTab">考试结果</div>
-      </div>
-      <div class="tab-content active" id="modeContent">
+      <div class="screen screen--active" id="modeContent">
         <h2>请选择学习模式</h2>
         <div class="mode-notice" id="modeNotice">
           温馨提示：实际考试理论试卷由70道单选题+10道多选题+20道判断题组成
@@ -49,7 +54,7 @@
           </button>
         </div>
       </div>
-      <div class="tab-content" id="examContent">
+      <div class="screen" id="examContent">
         <div class="exam-wrapper">
           <div class="question-main">
             <div class="progress-text" id="progressText">
@@ -115,7 +120,7 @@
           </div>
         </div>
       </div>
-      <div class="tab-content" id="resultContent">
+      <div class="screen" id="resultContent">
         <h2 id="resultTitle">考试结果</h2>
         <div class="score-display" id="scoreDisplay">您的得分: 0.0分（0/80）</div>
         <label class="result-filter" id="resultFilter">

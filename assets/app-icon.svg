@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" role="img" aria-labelledby="title desc">
+  <title id="title">AI 训练师模拟考试</title>
+  <desc id="desc">紫色背景上的答题卡与对勾图标</desc>
+  <defs>
+    <linearGradient id="background" x1="58" y1="42" x2="454" y2="470" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#667EEA"/>
+      <stop offset="1" stop-color="#764BA2"/>
+    </linearGradient>
+  </defs>
+  <rect width="512" height="512" rx="112" fill="url(#background)"/>
+  <circle cx="424" cy="92" r="70" fill="#A9B8FF" opacity=".2"/>
+  <circle cx="78" cy="436" r="88" fill="#D9C0FF" opacity=".16"/>
+  <rect x="112" y="91" width="288" height="330" rx="38" fill="#FFF"/>
+  <rect x="148" y="138" width="126" height="24" rx="12" fill="#6477DF"/>
+  <rect x="148" y="190" width="102" height="18" rx="9" fill="#D7DDF8"/>
+  <rect x="148" y="228" width="122" height="18" rx="9" fill="#D7DDF8"/>
+  <rect x="148" y="266" width="84" height="18" rx="9" fill="#D7DDF8"/>
+  <circle cx="328" cy="241" r="72" fill="#2DB457"/>
+  <path d="m293 241 23 24 48-53" fill="none" stroke="#FFF" stroke-linecap="round" stroke-linejoin="round" stroke-width="18"/>
+  <rect x="148" y="329" width="216" height="18" rx="9" fill="#E9ECFA"/>
+  <rect x="148" y="367" width="150" height="18" rx="9" fill="#E9ECFA"/>
+</svg>

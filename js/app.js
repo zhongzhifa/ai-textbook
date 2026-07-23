@@ -14,11 +14,7 @@
         single: "data/single-questions.json",
         multi: "data/multi-questions.json",
       };
-      const j = document.querySelectorAll(".tab");
-      const k = document.querySelectorAll(".tab-content");
-      const l = document.getElementById("modeTab");
-      const m = document.getElementById("examTab");
-      const n = document.getElementById("resultTab");
+      const screens = document.querySelectorAll(".screen");
       const navigationSidebar = document.getElementById("navigationSidebar");
       const navigationScrollBar = document.getElementById(
         "navigationScrollBar",
@@ -29,16 +25,6 @@
       let navigationScrollTimer = null;
       let currentExamResult = null;
       document.addEventListener("DOMContentLoaded", function () {
-        j.forEach((a) => {
-          a.addEventListener("click", function () {
-            const b = this.getAttribute("data-tab");
-            if (b === "result") {
-              showExamHistoryList();
-              return;
-            }
-            o(b);
-          });
-        });
         document.addEventListener("keydown", handleKeyboardShortcut);
         navigationSidebar.addEventListener("scroll", L, { passive: true });
         window.addEventListener("resize", M);
@@ -55,11 +41,9 @@
         });
         p();
       });
-      function o(a) {
-        j.forEach((a) => a.classList.remove("active"));
-        k.forEach((b) => b.classList.remove("active"));
-        document.querySelector(`.tab[data-tab="${a}"]`).classList.add("active");
-        document.getElementById(`${a}Content`).classList.add("active");
+      function showScreen(a) {
+        screens.forEach((a) => a.classList.remove("screen--active"));
+        document.getElementById(`${a}Content`).classList.add("screen--active");
         refreshModeSummary();
       }
       async function loadQuestionData() {
@@ -96,10 +80,8 @@
           i.singleQuestions = q(singleData.rows, "single");
           i.multiQuestions = q(multiData.rows, "multi");
           if (i.singleQuestions.length > 0 && i.multiQuestions.length > 0) {
-            l.style.pointerEvents = "auto";
-            l.style.opacity = "1";
             refreshModeSummary();
-            o("mode");
+            showScreen("mode");
           } else {
             throw new Error("题库中没有有效的题目，请检查 JSON 数据！");
           }
@@ -300,10 +282,6 @@
           b.disabled = a === 0;
           b.title = a === 0 ? "暂无考试结果" : `已保存 ${a} 次考试结果`;
         }
-        if (n && a > 0) {
-          n.style.pointerEvents = "auto";
-          n.style.opacity = "1";
-        }
       }
       function getReviewProgress() {
         try {
@@ -364,14 +342,14 @@
         if (!a) return;
         const c = document
           .getElementById("examContent")
-          .classList.contains("active");
+          .classList.contains("screen--active");
         document.body.classList.toggle("is-taking-questions", c);
         const b =
           (i.mode === "exam" || i.mode === "wrong") &&
           (c ||
             document
               .getElementById("resultContent")
-              .classList.contains("active"));
+              .classList.contains("screen--active"));
         if (b) {
           a.classList.add("is-hidden");
           if (row) row.classList.add("is-hidden");
@@ -420,7 +398,7 @@
               .classList.remove("active");
             showModeMessage("暂无错题。背题或考试中答错后会自动加入错题集。");
             updateWrongModeButton();
-            o("mode");
+            showScreen("mode");
             M();
             return;
           }
@@ -444,7 +422,7 @@
             .classList.remove("active");
         }
         y();
-        o("exam");
+        showScreen("exam");
         scheduleCurrentNavVisibilityCheck();
         M();
       }
@@ -630,7 +608,7 @@
       }
       function shouldHandleKeyboardShortcut(a) {
         if (!i.currentQuestions.length) return false;
-        if (!document.getElementById("examContent").classList.contains("active"))
+        if (!document.getElementById("examContent").classList.contains("screen--active"))
           return false;
         if (a.metaKey || a.ctrlKey || a.altKey) return false;
         const b = a.target || document.activeElement;
@@ -881,7 +859,7 @@
               showModeMessage(
                 "错题集已清空。背题或考试中答错后会自动加入错题集。",
               );
-              o("mode");
+              showScreen("mode");
               M();
             } else {
               i.currentQuestions = a;
@@ -920,9 +898,7 @@
           const e = createExamHistoryRecord(b, c, d);
           saveExamHistoryRecord(e);
           renderExamResult(e);
-          n.style.pointerEvents = "auto";
-          n.style.opacity = "1";
-          o("result");
+          showScreen("result");
         } catch (a) {
           console.error("提交考试错误:", a);
           alert(`提交考试时发生错误: ${a.message}`);
@@ -1030,9 +1006,7 @@
             )
             .join("")}</div>`;
         }
-        n.style.pointerEvents = "auto";
-        n.style.opacity = "1";
-        o("result");
+        showScreen("result");
       }
       function showExamHistoryRecord(a) {
         const b = getExamHistory().find((b) => b.id === a);
@@ -1041,9 +1015,7 @@
           return;
         }
         renderExamResult(b);
-        n.style.pointerEvents = "auto";
-        n.style.opacity = "1";
-        o("result");
+        showScreen("result");
       }
       function F() {
         let a = 0;
@@ -1076,11 +1048,5 @@
         return { score: a, total: b, results: c };
       }
       function f() {
-        o("mode");
+        showScreen("mode");
       }
-      l.style.pointerEvents = "none";
-      l.style.opacity = "0.5";
-      m.style.pointerEvents = "none";
-      m.style.opacity = "0.5";
-      n.style.pointerEvents = "none";
-      n.style.opacity = "0.5";
