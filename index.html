@@ -1,0 +1,162 @@
+<!doctype html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width,initial-scale=1.0" />
+    <title>人工智能训练师模拟考试系统</title>
+    <link rel="stylesheet" href="css/styles.css" />
+  </head>
+  <body>
+    <div class="container">
+      <div class="tabs">
+        <div class="tab active" data-tab="mode" id="modeTab">选择模式</div>
+        <div class="tab" data-tab="exam" id="examTab">开始考试</div>
+        <div class="tab" data-tab="result" id="resultTab">考试结果</div>
+      </div>
+      <div class="tab-content active" id="modeContent">
+        <h2>请选择学习模式</h2>
+        <div class="mode-notice" id="modeNotice">
+          温馨提示：实际考试理论试卷由70道单选题+10道多选题+20道判断题组成
+        </div>
+        <div class="mode-message" id="modeActionMessage" role="status"></div>
+        <div class="mode-select">
+          <button class="btn btn-success mode-btn" onclick="b('exam')">
+            📝 模拟考试模式<br /><small
+              >(70道单选 + 10道多选，共80题，随机抽取)</small
+            ></button
+          ><button class="btn btn-warning mode-btn" onclick="b('review')">
+            📚 背题模式<br /><small>(按顺序刷全部题库，适合记忆)</small>
+          </button>
+          <button
+            class="btn btn-secondary mode-btn"
+            id="wrongModeBtn"
+            onclick="b('wrong')"
+            disabled
+          >
+            ❌ 错题集（<span id="wrongCountText">0</span>道）<br /><small
+              >(答对2次自动移出，可反复练习)</small
+            >
+          </button>
+          <button
+            class="btn btn-secondary mode-btn"
+            id="examHistoryBtn"
+            onclick="showExamHistoryList()"
+            disabled
+          >
+            📊 考试结果（<span id="examHistoryCountText">0</span>次）<br /><small
+              >(查看每一次提交后的正确率和明细)</small
+            >
+          </button>
+        </div>
+      </div>
+      <div class="tab-content" id="examContent">
+        <div class="exam-wrapper">
+          <div class="question-main">
+            <div class="progress-text" id="progressText">
+              进度: 1/80 | 已答题: 0/80
+            </div>
+            <div class="progress-bar">
+              <div
+                class="progress-fill"
+                id="progressFill"
+                style="width: 0%"
+              ></div>
+            </div>
+            <div class="question-container">
+              <div class="question-text" id="questionText">
+                题目内容将在这里显示...
+              </div>
+              <div class="options-container" id="optionsContainer"></div>
+              <div
+                class="question-message"
+                id="questionMessage"
+                role="status"
+              ></div>
+            </div>
+            <div class="navigation">
+              <button
+                class="btn btn-primary"
+                id="prevBtn"
+                onclick="c()"
+                disabled
+              >
+                上一题</button
+              ><button class="btn btn-primary" id="nextBtn" onclick="d()">
+                下一题</button
+              ><button
+                class="btn btn-secondary"
+                id="restartReviewBtn"
+                onclick="restartReview()"
+                style="display: none"
+              >
+                重新开始</button
+              ><button class="btn btn-danger" onclick="e()">提交考试</button>
+            </div>
+          </div>
+          <div class="navigation-sidebar" id="navigationSidebar">
+            <div class="nav-section">
+              <div class="nav-title">单选题</div>
+              <div class="nav-numbers" id="singleNumbers"></div>
+            </div>
+            <div class="nav-section">
+              <div class="nav-title">多选题</div>
+              <div class="nav-numbers" id="multiNumbers"></div>
+            </div>
+          </div>
+          <div
+            class="navigation-scrollbar"
+            id="navigationScrollBar"
+            aria-hidden="true"
+          >
+            <div
+              class="navigation-scroll-thumb"
+              id="navigationScrollThumb"
+            ></div>
+          </div>
+        </div>
+      </div>
+      <div class="tab-content" id="resultContent">
+        <h2 id="resultTitle">考试结果</h2>
+        <div class="score-display" id="scoreDisplay">您的得分: 0.0分（0/80）</div>
+        <label class="result-filter" id="resultFilter">
+          <input
+            type="checkbox"
+            id="onlyWrongFilter"
+            onchange="renderCurrentExamResult()"
+            checked
+          />
+          只显示错误
+        </label>
+        <div class="result-container" id="resultDetails"></div>
+        <div class="result-actions">
+          <button
+            class="btn btn-secondary"
+            id="resultListBtn"
+            onclick="showExamHistoryList()"
+            style="display: none"
+          >
+            结果列表</button
+          >
+          <button class="btn btn-primary" onclick="f()">返回模式选择</button>
+        </div>
+      </div>
+    </div>
+    <div class="mode-stats-row" id="modeStatsRow">
+      <div class="mode-stats" id="modeStats" aria-label="学习统计">
+        <span
+          ><strong class="mode-stat-value" id="doneCountText">0</strong
+          ><span class="mode-stat-label">已做题目</span></span
+        >
+        <span
+          ><strong class="mode-stat-value" id="remainingCountText">0</strong
+          ><span class="mode-stat-label">未做</span></span
+        >
+        <span
+          ><strong class="mode-stat-value" id="accuracyText">0.0%</strong
+          ><span class="mode-stat-label">正确率</span></span
+        >
+      </div>
+    </div>
+    <script src="js/app.js"></script>
+  </body>
+</html>

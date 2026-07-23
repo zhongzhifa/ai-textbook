@@ -1,0 +1,3884 @@
+{
+  "rows": [
+    {
+      "id": "ff8080818c4360c4018c6b0da2a55333",
+      "type": "1",
+      "topic": "AI系统运维软件的核心功能包括以下哪些方面（）。",
+      "parsing": "ABCD",
+      "options": [
+        {
+          "optionsnum": "A",
+          "options": "监控和警报"
+        },
+        {
+          "optionsnum": "B",
+          "options": "配置管理"
+        },
+        {
+          "optionsnum": "C",
+          "options": "资源管理"
+        },
+        {
+          "optionsnum": "D",
+          "options": "操作和管控"
+        }
+      ]
+    },
+    {
+      "id": "ff8080818c4360c4018c6b0da2a55338",
+      "type": "1",
+      "topic": "常见的数据采集工具有哪些（）。",
+      "parsing": "ABC",
+      "options": [
+        {
+          "optionsnum": "A",
+          "options": "Python采集库"
+        },
+        {
+          "optionsnum": "B",
+          "options": "网络爬虫软件"
+        },
+        {
+          "optionsnum": "C",
+          "options": "可视化采集工具"
+        },
+        {
+          "optionsnum": "D",
+          "options": "命令行采集工具"
+        }
+      ]
+    },
+    {
+      "id": "ff8080818c4360c4018c6b0da2a5533d",
+      "type": "1",
+      "topic": "以下哪些数据采集方法可以用于社会调查（）。",
+      "parsing": "ABC",
+      "options": [
+        {
+          "optionsnum": "A",
+          "options": "面谈"
+        },
+        {
+          "optionsnum": "B",
+          "options": "网络调查"
+        },
+        {
+          "optionsnum": "C",
+          "options": "邮寄问卷调查"
+        },
+        {
+          "optionsnum": "D",
+          "options": "手机短信推送调查"
+        }
+      ]
+    },
+    {
+      "id": "ff8080818c4360c4018c6b0da2a55342",
+      "type": "1",
+      "topic": "在数据采集过程中，以下哪些方面需要注意（）。",
+      "parsing": "ABC",
+      "options": [
+        {
+          "optionsnum": "A",
+          "options": "合法性"
+        },
+        {
+          "optionsnum": "B",
+          "options": "安全性"
+        },
+        {
+          "optionsnum": "C",
+          "options": "可靠性"
+        },
+        {
+          "optionsnum": "D",
+          "options": "速度快"
+        }
+      ]
+    },
+    {
+      "id": "ff8080818c4360c4018c6b0da2a55347",
+      "type": "1",
+      "topic": "以下哪些是数据格式（）。",
+      "parsing": "ABC",
+      "options": [
+        {
+          "optionsnum": "A",
+          "options": "CSV"
+        },
+        {
+          "optionsnum": "B",
+          "options": "XML"
+        },
+        {
+          "optionsnum": "C",
+          "options": "JSON"
+        },
+        {
+          "optionsnum": "D",
+          "options": "SQL"
+        }
+      ]
+    },
+    {
+      "id": "ff8080818c4360c4018c6b0da2a5534c",
+      "type": "1",
+      "topic": "在数据采集过程中，以下哪一项可以保证数据质量（）。",
+      "parsing": "ABC",
+      "options": [
+        {
+          "optionsnum": "A",
+          "options": "确认数据来源"
+        },
+        {
+          "optionsnum": "B",
+          "options": "确认数据格式"
+        },
+        {
+          "optionsnum": "C",
+          "options": "去除重复数据"
+        },
+        {
+          "optionsnum": "D",
+          "options": "数据加密"
+        }
+      ]
+    },
+    {
+      "id": "ff8080818c4360c4018c6b0da2a55351",
+      "type": "1",
+      "topic": "职业道德的特征主要表现为：一定的强制性、利益的相关性、（）。",
+      "parsing": "ABCD",
+      "options": [
+        {
+          "optionsnum": "A",
+          "options": "鲜明的行业性"
+        },
+        {
+          "optionsnum": "B",
+          "options": "范围的有限性"
+        },
+        {
+          "optionsnum": "C",
+          "options": "相对的稳定性"
+        },
+        {
+          "optionsnum": "D",
+          "options": "形式的多样性"
+        }
+      ]
+    },
+    {
+      "id": "ff8080818c4360c4018c6b0da2a55356",
+      "type": "1",
+      "topic": "在企业中，激发团队合作意识是一个推动持续发展的原动力，因为这使得员工们更加有（）。",
+      "parsing": "AC",
+      "options": [
+        {
+          "optionsnum": "A",
+          "options": "使命感"
+        },
+        {
+          "optionsnum": "B",
+          "options": "情感"
+        },
+        {
+          "optionsnum": "C",
+          "options": "责任感"
+        },
+        {
+          "optionsnum": "D",
+          "options": "艺术感"
+        }
+      ]
+    },
+    {
+      "id": "ff8080818c4360c4018c6b0da2a5535b",
+      "type": "1",
+      "topic": "职业道德行为的评价可以根据评价主体的不同分为三种类型，分别为（）。",
+      "parsing": "ABC",
+      "options": [
+        {
+          "optionsnum": "A",
+          "options": "社会评价"
+        },
+        {
+          "optionsnum": "B",
+          "options": "集体评价"
+        },
+        {
+          "optionsnum": "C",
+          "options": "自我评价"
+        },
+        {
+          "optionsnum": "D",
+          "options": "对手评价"
+        }
+      ]
+    },
+    {
+      "id": "ff8080818c4360c4018c6b0da2a55360",
+      "type": "1",
+      "topic": "对于一个出色的团队而言，其合作品质包括（）。",
+      "parsing": "AC",
+      "options": [
+        {
+          "optionsnum": "A",
+          "options": "成员对团队强烈的归属感"
+        },
+        {
+          "optionsnum": "B",
+          "options": "团队有钱"
+        },
+        {
+          "optionsnum": "C",
+          "options": "团队具有强大的凝聚力"
+        },
+        {
+          "optionsnum": "D",
+          "options": "团队有很强人脉"
+        }
+      ]
+    },
+    {
+      "id": "ff8080818c4360c4018c6b0da2a55365",
+      "type": "1",
+      "topic": "纪律是指（）等各种规定，以及针对特定行业有关安全生产的指引和规范。",
+      "parsing": "ABCD",
+      "options": [
+        {
+          "optionsnum": "A",
+          "options": "规章制度"
+        },
+        {
+          "optionsnum": "B",
+          "options": "准则"
+        },
+        {
+          "optionsnum": "C",
+          "options": "工作职责"
+        },
+        {
+          "optionsnum": "D",
+          "options": "公约、守则、条例"
+        }
+      ]
+    },
+    {
+      "id": "ff8080818c4360c4018c6b0da2a5536a",
+      "type": "1",
+      "topic": "生产经营单位须时常（）安全设备，定期检查以确保其能正常运作。",
+      "parsing": "AC",
+      "options": [
+        {
+          "optionsnum": "A",
+          "options": "维护"
+        },
+        {
+          "optionsnum": "B",
+          "options": "更换"
+        },
+        {
+          "optionsnum": "C",
+          "options": "保养"
+        },
+        {
+          "optionsnum": "D",
+          "options": "转移"
+        }
+      ]
+    },
+    {
+      "id": "ff8080818c4360c4018c6b0da2a5536f",
+      "type": "1",
+      "topic": "计算机的主机由多个部分组成，其中包括（）。",
+      "parsing": "BCD",
+      "options": [
+        {
+          "optionsnum": "A",
+          "options": "显示器"
+        },
+        {
+          "optionsnum": "B",
+          "options": "主板"
+        },
+        {
+          "optionsnum": "C",
+          "options": "内存"
+        },
+        {
+          "optionsnum": "D",
+          "options": "显卡"
+        }
+      ]
+    },
+    {
+      "id": "ff8080818c4360c4018c6b0da2a55374",
+      "type": "1",
+      "topic": "以下选项哪些是操作系统（）。",
+      "parsing": "ABC",
+      "options": [
+        {
+          "optionsnum": "A",
+          "options": "Windows XP"
+        },
+        {
+          "optionsnum": "B",
+          "options": "Unix"
+        },
+        {
+          "optionsnum": "C",
+          "options": "Linux"
+        },
+        {
+          "optionsnum": "D",
+          "options": "PhotoShop"
+        }
+      ]
+    },
+    {
+      "id": "ff8080818c4360c4018c6b0da2a55379",
+      "type": "1",
+      "topic": "主要影响信息安全的方面包括（）。",
+      "parsing": "ACD",
+      "options": [
+        {
+          "optionsnum": "A",
+          "options": "技术因素"
+        },
+        {
+          "optionsnum": "B",
+          "options": "自然因素"
+        },
+        {
+          "optionsnum": "C",
+          "options": "环境因素"
+        },
+        {
+          "optionsnum": "D",
+          "options": "人为因素"
+        }
+      ]
+    },
+    {
+      "id": "ff8080818c4360c4018c6b0da2a6537e",
+      "type": "1",
+      "topic": "（）是常见的数据库管理系统。",
+      "parsing": "BCD",
+      "options": [
+        {
+          "optionsnum": "A",
+          "options": "Excel"
+        },
+        {
+          "optionsnum": "B",
+          "options": "Access"
+        },
+        {
+          "optionsnum": "C",
+          "options": "SQL Server"
+        },
+        {
+          "optionsnum": "D",
+          "options": "Visual FoxPro"
+        }
+      ]
+    },
+    {
+      "id": "ff8080818c4360c4018c6b0da2a65384",
+      "type": "1",
+      "topic": "Windows优化大师是一个工具软件，能够帮助用户检提供（）等功能。",
+      "parsing": "ABCD",
+      "options": [
+        {
+          "optionsnum": "A",
+          "options": "系统检测"
+        },
+        {
+          "optionsnum": "B",
+          "options": "系统优化"
+        },
+        {
+          "optionsnum": "C",
+          "options": "系统清理"
+        },
+        {
+          "optionsnum": "D",
+          "options": "系统维护"
+        }
+      ]
+    },
+    {
+      "id": "ff8080818c4360c4018c6b0da2a65389",
+      "type": "1",
+      "topic": "计算机的显著特点包括（）。",
+      "parsing": "ABCDE",
+      "options": [
+        {
+          "optionsnum": "A",
+          "options": "运算速度快"
+        },
+        {
+          "optionsnum": "B",
+          "options": "计算精度高"
+        },
+        {
+          "optionsnum": "C",
+          "options": "存储功能强"
+        },
+        {
+          "optionsnum": "D",
+          "options": "具有逻辑判断能力"
+        },
+        {
+          "optionsnum": "E",
+          "options": "在程序控制下自动进行处理"
+        }
+      ]
+    },
+    {
+      "id": "ff8080818c4360c4018c6b0da2a6538e",
+      "type": "1",
+      "topic": "计算机根据物理器件的不同类型进行分类，包括（）",
+      "parsing": "ABCD",
+      "options": [
+        {
+          "optionsnum": "A",
+          "options": "电子管"
+        },
+        {
+          "optionsnum": "B",
+          "options": "晶体管"
+        },
+        {
+          "optionsnum": "C",
+          "options": "中、小规模集成电路"
+        },
+        {
+          "optionsnum": "D",
+          "options": "大规模、超大规模集成电路"
+        }
+      ]
+    },
+    {
+      "id": "ff8080818c4360c4018c6b0da2a65393",
+      "type": "1",
+      "topic": "计算机病毒的特点包括具有（）。",
+      "parsing": "ABCD",
+      "options": [
+        {
+          "optionsnum": "A",
+          "options": "传染性"
+        },
+        {
+          "optionsnum": "B",
+          "options": "隐蔽性"
+        },
+        {
+          "optionsnum": "C",
+          "options": "潜伏性"
+        },
+        {
+          "optionsnum": "D",
+          "options": "破坏性"
+        }
+      ]
+    },
+    {
+      "id": "ff8080818c4360c4018c6b0da2a65398",
+      "type": "1",
+      "topic": "在IE浏览器中，可以通过管理“收藏夹”功能来实现对文件夹的（）等各种管理操作。",
+      "parsing": "ABCD",
+      "options": [
+        {
+          "optionsnum": "A",
+          "options": "创建文件夹"
+        },
+        {
+          "optionsnum": "B",
+          "options": "重命名"
+        },
+        {
+          "optionsnum": "C",
+          "options": "删除"
+        },
+        {
+          "optionsnum": "D",
+          "options": "移动"
+        }
+      ]
+    },
+    {
+      "id": "ff8080818c4360c4018c6b0da2a6539d",
+      "type": "1",
+      "topic": "（）是最常被使用的搜索引擎。",
+      "parsing": "AB",
+      "options": [
+        {
+          "optionsnum": "A",
+          "options": "百度"
+        },
+        {
+          "optionsnum": "B",
+          "options": "Google"
+        },
+        {
+          "optionsnum": "C",
+          "options": "QQ"
+        },
+        {
+          "optionsnum": "D",
+          "options": "163"
+        }
+      ]
+    },
+    {
+      "id": "ff8080818c4360c4018c6b0da2a653a2",
+      "type": "1",
+      "topic": "多媒体软件分为（），根据不同的信息类型进行处理。",
+      "parsing": "ABC",
+      "options": [
+        {
+          "optionsnum": "A",
+          "options": "声音处理软件"
+        },
+        {
+          "optionsnum": "B",
+          "options": "图形图像处理软件"
+        },
+        {
+          "optionsnum": "C",
+          "options": "视频处理软件"
+        },
+        {
+          "optionsnum": "D",
+          "options": "表格处理软件"
+        }
+      ]
+    },
+    {
+      "id": "ff8080818c4360c4018c6b0da2a653a7",
+      "type": "1",
+      "topic": "常见的图像文件有（）。",
+      "parsing": "AB",
+      "options": [
+        {
+          "optionsnum": "A",
+          "options": ".jpg"
+        },
+        {
+          "optionsnum": "B",
+          "options": ".bmp"
+        },
+        {
+          "optionsnum": "C",
+          "options": ".wps"
+        },
+        {
+          "optionsnum": "D",
+          "options": ".mp3"
+        }
+      ]
+    },
+    {
+      "id": "ff8080818c4360c4018c6b0da2a653ac",
+      "type": "1",
+      "topic": "根据《劳动法》，劳动者（），用人单位就有权终止劳动合同。",
+      "parsing": "AC",
+      "options": [
+        {
+          "optionsnum": "A",
+          "options": "在试用期间被证明不符合录用条件的"
+        },
+        {
+          "optionsnum": "B",
+          "options": "不服从用人单位领导不合理的工作安排"
+        },
+        {
+          "optionsnum": "C",
+          "options": "严重违反用人单位的规章制度的"
+        },
+        {
+          "optionsnum": "D",
+          "options": "劳动者违反竞业限制约定"
+        }
+      ]
+    },
+    {
+      "id": "ff8080818c4360c4018c6b0da2a653b1",
+      "type": "1",
+      "topic": "以下哪些数据采集方法适合处理海量数据（）。",
+      "parsing": "BCD",
+      "options": [
+        {
+          "optionsnum": "A",
+          "options": "传统的关系型数据库"
+        },
+        {
+          "optionsnum": "B",
+          "options": "分布式数据库"
+        },
+        {
+          "optionsnum": "C",
+          "options": "数据仓库"
+        },
+        {
+          "optionsnum": "D",
+          "options": "非关系型数据库"
+        }
+      ]
+    },
+    {
+      "id": "ff8080818c4360c4018c6b0da2a653b6",
+      "type": "1",
+      "topic": "以下哪些是数据采集的核心步骤（）。",
+      "parsing": "CD",
+      "options": [
+        {
+          "optionsnum": "A",
+          "options": "数据可视化"
+        },
+        {
+          "optionsnum": "B",
+          "options": "数据分析"
+        },
+        {
+          "optionsnum": "C",
+          "options": "数据预处理"
+        },
+        {
+          "optionsnum": "D",
+          "options": "数据清洗"
+        }
+      ]
+    },
+    {
+      "id": "ff8080818c4360c4018c6b0da2a653bb",
+      "type": "1",
+      "topic": "下列哪些是合法的数据采集方式（）。",
+      "parsing": "BC",
+      "options": [
+        {
+          "optionsnum": "A",
+          "options": "无需征得用户同意，直接获取用户数据"
+        },
+        {
+          "optionsnum": "B",
+          "options": "通过分析公共数据的方式获取数据"
+        },
+        {
+          "optionsnum": "C",
+          "options": "征得用户同意后，获取用户数据"
+        },
+        {
+          "optionsnum": "D",
+          "options": "从竞争对手手中直接获取数据"
+        }
+      ]
+    },
+    {
+      "id": "ff8080818c4360c4018c6b0da2a653c0",
+      "type": "1",
+      "topic": "根据《合同法》，广告指在报纸、（）等媒介上发布的，目的在于推销和宣传商品或服务的一种行为。",
+      "parsing": "ABCD",
+      "options": [
+        {
+          "optionsnum": "A",
+          "options": "杂志"
+        },
+        {
+          "optionsnum": "B",
+          "options": "广播"
+        },
+        {
+          "optionsnum": "C",
+          "options": "电视"
+        },
+        {
+          "optionsnum": "D",
+          "options": "互联网"
+        }
+      ]
+    },
+    {
+      "id": "ff8080818c4360c4018c6b0da2a653c5",
+      "type": "1",
+      "topic": "《网络安全法》指出，网络运营者必须建立网络信息（）等信息，及时受理和处理有关网络信息安全方面的投诉和举报。",
+      "parsing": "ABCD",
+      "options": [
+        {
+          "optionsnum": "A",
+          "options": "安全投诉"
+        },
+        {
+          "optionsnum": "B",
+          "options": "举报制度"
+        },
+        {
+          "optionsnum": "C",
+          "options": "公布投诉"
+        },
+        {
+          "optionsnum": "D",
+          "options": "举报方式"
+        }
+      ]
+    },
+    {
+      "id": "ff8080818c4360c4018c6b0da2a653ca",
+      "type": "1",
+      "topic": "根据《知识产权法》，在电视台播放他人制作的电影、电视节目和录像时，必须先获（）和（）的授权，并支付相应的费用。",
+      "parsing": "AC",
+      "options": [
+        {
+          "optionsnum": "A",
+          "options": "电影、电视制片者"
+        },
+        {
+          "optionsnum": "B",
+          "options": "表演者"
+        },
+        {
+          "optionsnum": "C",
+          "options": "录像制作者"
+        },
+        {
+          "optionsnum": "D",
+          "options": "原播放该录像制品的电视台"
+        }
+      ]
+    },
+    {
+      "id": "ff8080818c4360c4018c6b0da2a653cf",
+      "type": "1",
+      "topic": "根据《计算机软件保护条例》的规定，（）等都属于侵权行为，对此侵权者必须根据事实情况承担相应的民事责任，包括但不限于停止侵权、消除不良影响、道歉赔礼、赔偿损失等。",
+      "parsing": "ABCD",
+      "options": [
+        {
+          "optionsnum": "A",
+          "options": "未经软件著作权人许可，发表或者登记其软件的"
+        },
+        {
+          "optionsnum": "B",
+          "options": "将他人软件作为自己的软件发表或者登记的"
+        },
+        {
+          "optionsnum": "C",
+          "options": "在他人软件上署名或者更改他人软件上的署名的"
+        },
+        {
+          "optionsnum": "D",
+          "options": "其他侵犯软件著作权的行为"
+        }
+      ]
+    },
+    {
+      "id": "ff8080818c4360c4018c6b0da2a653d4",
+      "type": "1",
+      "topic": "ETL 数据整合工具的主要功能包括（）。",
+      "parsing": "ABC",
+      "options": [
+        {
+          "optionsnum": "A",
+          "options": "数据抽取(E)"
+        },
+        {
+          "optionsnum": "B",
+          "options": "数据转换(T)"
+        },
+        {
+          "optionsnum": "C",
+          "options": "数据加载(L)"
+        },
+        {
+          "optionsnum": "D",
+          "options": "数据备份("
+        }
+      ]
+    },
+    {
+      "id": "ff8080818c4360c4018c6b0da2a653d9",
+      "type": "1",
+      "topic": "主要从以下（）方面来衡量ETL技术选型。",
+      "parsing": "ABCD",
+      "options": [
+        {
+          "optionsnum": "A",
+          "options": "成本"
+        },
+        {
+          "optionsnum": "B",
+          "options": "人员"
+        },
+        {
+          "optionsnum": "C",
+          "options": "相关案例"
+        },
+        {
+          "optionsnum": "D",
+          "options": "技术支持"
+        }
+      ]
+    },
+    {
+      "id": "ff8080818c4360c4018c6b0da2a653de",
+      "type": "1",
+      "topic": "ETL数据整合的功能包括（）。",
+      "parsing": "ABCD",
+      "options": [
+        {
+          "optionsnum": "A",
+          "options": "业务需求"
+        },
+        {
+          "optionsnum": "B",
+          "options": "数据评估"
+        },
+        {
+          "optionsnum": "C",
+          "options": "数据集成"
+        },
+        {
+          "optionsnum": "D",
+          "options": "最终用户提交界面"
+        }
+      ]
+    },
+    {
+      "id": "ff8080818c4360c4018c6b0da2a653e3",
+      "type": "1",
+      "topic": "ETL 数据整合工具的关键技术包括（）。",
+      "parsing": "ABCD",
+      "options": [
+        {
+          "optionsnum": "A",
+          "options": "数据清洗"
+        },
+        {
+          "optionsnum": "B",
+          "options": "数据去重"
+        },
+        {
+          "optionsnum": "C",
+          "options": "数据转换"
+        },
+        {
+          "optionsnum": "D",
+          "options": "数据加载"
+        },
+        {
+          "optionsnum": "E",
+          "options": "数据清空"
+        }
+      ]
+    },
+    {
+      "id": "ff8080818c4360c4018c6b0da2a653e8",
+      "type": "1",
+      "topic": "（）是数据增量抽取的模式。",
+      "parsing": "ABCD",
+      "options": [
+        {
+          "optionsnum": "A",
+          "options": "触发器模式"
+        },
+        {
+          "optionsnum": "B",
+          "options": "时间戳方式"
+        },
+        {
+          "optionsnum": "C",
+          "options": "全表对比方式"
+        },
+        {
+          "optionsnum": "D",
+          "options": "日志对比方式"
+        }
+      ]
+    },
+    {
+      "id": "ff8080818c4360c4018c6b0da2a653ee",
+      "type": "1",
+      "topic": "（）是从网络爬虫的角度对互联网进行划分对应的部分。",
+      "parsing": "ABCD",
+      "options": [
+        {
+          "optionsnum": "A",
+          "options": "已下载的（包括未过期和已过期）网页"
+        },
+        {
+          "optionsnum": "B",
+          "options": "待下载网页"
+        },
+        {
+          "optionsnum": "C",
+          "options": "可知网页"
+        },
+        {
+          "optionsnum": "D",
+          "options": "不可知网页"
+        }
+      ]
+    },
+    {
+      "id": "ff8080818c4360c4018c6b0da2a653f3",
+      "type": "1",
+      "topic": "当出现错误时，处理数据的方法可以包括（）。",
+      "parsing": "ABC",
+      "options": [
+        {
+          "optionsnum": "A",
+          "options": "删除错误数据"
+        },
+        {
+          "optionsnum": "B",
+          "options": "错误数据替换"
+        },
+        {
+          "optionsnum": "C",
+          "options": "分离对待"
+        },
+        {
+          "optionsnum": "D",
+          "options": "不做任何处理"
+        }
+      ]
+    },
+    {
+      "id": "ff8080818c4360c4018c6b0da2a653f8",
+      "type": "1",
+      "topic": "在样本规约过程中，确定子集大小时需要考虑（）以及其他与算法和数据特性相关的因素。",
+      "parsing": "ABC",
+      "options": [
+        {
+          "optionsnum": "A",
+          "options": "计算成本"
+        },
+        {
+          "optionsnum": "B",
+          "options": "存储要求"
+        },
+        {
+          "optionsnum": "C",
+          "options": "估计量的精度"
+        },
+        {
+          "optionsnum": "D",
+          "options": "估计量的范围"
+        }
+      ]
+    },
+    {
+      "id": "ff8080818c4360c4018c6b0da2a653fd",
+      "type": "1",
+      "topic": "有参特征值的归约方法，其中包括回归和对数线性模型。",
+      "parsing": "AC",
+      "options": [
+        {
+          "optionsnum": "A",
+          "options": "回归"
+        },
+        {
+          "optionsnum": "B",
+          "options": "直方图"
+        },
+        {
+          "optionsnum": "C",
+          "options": "对数线性模型"
+        },
+        {
+          "optionsnum": "D",
+          "options": "选择"
+        }
+      ]
+    },
+    {
+      "id": "ff8080818c4360c4018c6b0da2a65402",
+      "type": "1",
+      "topic": "（）函数是纵向数据抽取中最常用的函数。",
+      "parsing": "AB",
+      "options": [
+        {
+          "optionsnum": "A",
+          "options": "split（）"
+        },
+        {
+          "optionsnum": "B",
+          "options": "slice（）"
+        },
+        {
+          "optionsnum": "C",
+          "options": "splice（）"
+        },
+        {
+          "optionsnum": "D",
+          "options": "concat（）"
+        }
+      ]
+    },
+    {
+      "id": "ff8080818c4360c4018c6b0da2a65407",
+      "type": "1",
+      "topic": "要使用决策树方法，需要具备（）要素。",
+      "parsing": "ABCDE",
+      "options": [
+        {
+          "optionsnum": "A",
+          "options": "具有决策者期望达到的明确目标"
+        },
+        {
+          "optionsnum": "B",
+          "options": "存在决策者可以选择的两个以上的可行备选方案"
+        },
+        {
+          "optionsnum": "C",
+          "options": "存在着决策者无法控制的两种以上的自然状态（如气候变化、市场行情、经济发展动向等）"
+        },
+        {
+          "optionsnum": "D",
+          "options": "不同行动方案在不同自然状态下的收益值或损失值可以计算出来"
+        },
+        {
+          "optionsnum": "E",
+          "options": "决策者能估计出不同的自然状态发生概率"
+        }
+      ]
+    },
+    {
+      "id": "ff8080818c4360c4018c6b0da2a6540c",
+      "type": "1",
+      "topic": "相比于传统的数据采集方法，分布式数据库采用更先进的方法进行数据采集，具备（）的特点。",
+      "parsing": "ABD",
+      "options": [
+        {
+          "optionsnum": "A",
+          "options": "具有更高的数据访问速度"
+        },
+        {
+          "optionsnum": "B",
+          "options": "具有更强的可扩展性"
+        },
+        {
+          "optionsnum": "C",
+          "options": "更多的资源消耗"
+        },
+        {
+          "optionsnum": "D",
+          "options": "更高的并发访问量"
+        }
+      ]
+    },
+    {
+      "id": "ff8080818c4360c4018c6b0da2a65411",
+      "type": "1",
+      "topic": "数据清洗的主要目的是（）。",
+      "parsing": "ABCD",
+      "options": [
+        {
+          "optionsnum": "A",
+          "options": "数据格式标准化"
+        },
+        {
+          "optionsnum": "B",
+          "options": "异常数据清理"
+        },
+        {
+          "optionsnum": "C",
+          "options": "数据错误纠正"
+        },
+        {
+          "optionsnum": "D",
+          "options": "重复数据的清除"
+        }
+      ]
+    },
+    {
+      "id": "ff8080818c4360c4018c6b0da2a65416",
+      "type": "1",
+      "topic": "业务流程可以根据活动内容的不同被细分为（）三种类型。",
+      "parsing": "BCD",
+      "options": [
+        {
+          "optionsnum": "A",
+          "options": "多结构化业务流程"
+        },
+        {
+          "optionsnum": "B",
+          "options": "完全结构化业务流程"
+        },
+        {
+          "optionsnum": "C",
+          "options": "半结构化业务流程"
+        },
+        {
+          "optionsnum": "D",
+          "options": "非结构化业务流程"
+        }
+      ]
+    },
+    {
+      "id": "ff8080818c4360c4018c6b0da2a6541b",
+      "type": "1",
+      "topic": "以下哪种算法可以用来解决分类问题（）。",
+      "parsing": "ABD",
+      "options": [
+        {
+          "optionsnum": "A",
+          "options": "支持向量机"
+        },
+        {
+          "optionsnum": "B",
+          "options": "K均值算法"
+        },
+        {
+          "optionsnum": "C",
+          "options": "线性回归"
+        },
+        {
+          "optionsnum": "D",
+          "options": "K最近邻算法"
+        }
+      ]
+    },
+    {
+      "id": "ff8080818c4360c4018c6b0da2a65420",
+      "type": "1",
+      "topic": "在AI系统运维中，以下哪些指标可以用来衡量系统的性能（）。",
+      "parsing": "AB",
+      "options": [
+        {
+          "optionsnum": "A",
+          "options": "CPU占用率和内存使用率"
+        },
+        {
+          "optionsnum": "B",
+          "options": "性能分析器报告"
+        },
+        {
+          "optionsnum": "C",
+          "options": "服务器的IP地址"
+        },
+        {
+          "optionsnum": "D",
+          "options": "硬盘剩余空间"
+        }
+      ]
+    },
+    {
+      "id": "ff8080818c4360c4018c6b0da2a65425",
+      "type": "1",
+      "topic": "在数据采集中，以下哪种问题可能会导致数据质量不佳：",
+      "parsing": "ABCD",
+      "options": [
+        {
+          "optionsnum": "A",
+          "options": "数据缺失"
+        },
+        {
+          "optionsnum": "B",
+          "options": "数据格式错误"
+        },
+        {
+          "optionsnum": "C",
+          "options": "数据重复"
+        },
+        {
+          "optionsnum": "D",
+          "options": "数据模糊"
+        }
+      ]
+    },
+    {
+      "id": "ff8080818c4360c4018c6b0da2a7542a",
+      "type": "1",
+      "topic": "数据采集过程中涉及到的主要数据类型包括：",
+      "parsing": "ABCD",
+      "options": [
+        {
+          "optionsnum": "A",
+          "options": "数字数据"
+        },
+        {
+          "optionsnum": "B",
+          "options": "文本数据"
+        },
+        {
+          "optionsnum": "C",
+          "options": "图像数据"
+        },
+        {
+          "optionsnum": "D",
+          "options": "视频数据"
+        }
+      ]
+    },
+    {
+      "id": "ff8080818c4360c4018c6b0da2a75430",
+      "type": "1",
+      "topic": "哪些属于云计算的特点（）。",
+      "parsing": "AB",
+      "options": [
+        {
+          "optionsnum": "A",
+          "options": "弹性扩展"
+        },
+        {
+          "optionsnum": "B",
+          "options": "快速部署"
+        },
+        {
+          "optionsnum": "C",
+          "options": "易上手"
+        },
+        {
+          "optionsnum": "D",
+          "options": "所有选项都是"
+        }
+      ]
+    },
+    {
+      "id": "ff8080818c4360c4018c6b0da2a75435",
+      "type": "1",
+      "topic": "数据获取中的几个技术关键点包括哪些（）。",
+      "parsing": "ABC",
+      "options": [
+        {
+          "optionsnum": "A",
+          "options": "目标判断与分析"
+        },
+        {
+          "optionsnum": "B",
+          "options": "数据获取与清洗"
+        },
+        {
+          "optionsnum": "C",
+          "options": "数据转换与存储"
+        },
+        {
+          "optionsnum": "D",
+          "options": "数据分析与应用"
+        }
+      ]
+    },
+    {
+      "id": "ff8080818c4360c4018c6b0da2a7543a",
+      "type": "1",
+      "topic": "人工智能数据采集中，常用的数据存储格式有哪些（）。",
+      "parsing": "ACD",
+      "options": [
+        {
+          "optionsnum": "A",
+          "options": "CSV"
+        },
+        {
+          "optionsnum": "B",
+          "options": "Excel"
+        },
+        {
+          "optionsnum": "C",
+          "options": "TXT"
+        },
+        {
+          "optionsnum": "D",
+          "options": "JSON"
+        }
+      ]
+    },
+    {
+      "id": "ff8080818c4360c4018c6b0da2a7543f",
+      "type": "1",
+      "topic": "Harrington将业务流程管理分为（）。",
+      "parsing": "ABCDE",
+      "options": [
+        {
+          "optionsnum": "A",
+          "options": "理解流程"
+        },
+        {
+          "optionsnum": "B",
+          "options": "梳理流程"
+        },
+        {
+          "optionsnum": "C",
+          "options": "执行流程"
+        },
+        {
+          "optionsnum": "D",
+          "options": "测量与控制流程"
+        },
+        {
+          "optionsnum": "E",
+          "options": "持续改进流程"
+        }
+      ]
+    },
+    {
+      "id": "ff8080818c4360c4018c6b0da2a75444",
+      "type": "1",
+      "topic": "数据标注是对原始素材进行（）等操作。",
+      "parsing": "ACD",
+      "options": [
+        {
+          "optionsnum": "A",
+          "options": "分类"
+        },
+        {
+          "optionsnum": "B",
+          "options": "统计分析"
+        },
+        {
+          "optionsnum": "C",
+          "options": "标框"
+        },
+        {
+          "optionsnum": "D",
+          "options": "描点"
+        }
+      ]
+    },
+    {
+      "id": "ff8080818c4360c4018c6b0da2a75449",
+      "type": "1",
+      "topic": "要进行数据的质量检查，可以使用（）的方法。",
+      "parsing": "BC",
+      "options": [
+        {
+          "optionsnum": "A",
+          "options": "普查"
+        },
+        {
+          "optionsnum": "B",
+          "options": "排查"
+        },
+        {
+          "optionsnum": "C",
+          "options": "抽查"
+        },
+        {
+          "optionsnum": "D",
+          "options": "检查"
+        }
+      ]
+    },
+    {
+      "id": "ff8080818c4360c4018c6b0da2a7544f",
+      "type": "1",
+      "topic": "医疗行业通过（）等应用，结合机器学习技术，快速实现医学编码和注释。",
+      "parsing": "ABCD",
+      "options": [
+        {
+          "optionsnum": "A",
+          "options": "人体标框"
+        },
+        {
+          "optionsnum": "B",
+          "options": "3D画框"
+        },
+        {
+          "optionsnum": "C",
+          "options": "骨骼点标记"
+        },
+        {
+          "optionsnum": "D",
+          "options": "病历转录"
+        }
+      ]
+    },
+    {
+      "id": "ff8080818c4360c4018c6b0da2a75454",
+      "type": "1",
+      "topic": "（）是常用的标注团队。",
+      "parsing": "ABC",
+      "options": [
+        {
+          "optionsnum": "A",
+          "options": "统一管理的标注生产团队"
+        },
+        {
+          "optionsnum": "B",
+          "options": "众包团队"
+        },
+        {
+          "optionsnum": "C",
+          "options": "校企团队"
+        },
+        {
+          "optionsnum": "D",
+          "options": "私人团队"
+        }
+      ]
+    },
+    {
+      "id": "ff8080818c4360c4018c6b0da2a75459",
+      "type": "1",
+      "topic": "一个包含数据标注的项目，可以运用项目管理知识，按照（）的步骤进行全流程管理。",
+      "parsing": "ABCDE",
+      "options": [
+        {
+          "optionsnum": "A",
+          "options": "启动"
+        },
+        {
+          "optionsnum": "B",
+          "options": "规划"
+        },
+        {
+          "optionsnum": "C",
+          "options": "执行"
+        },
+        {
+          "optionsnum": "D",
+          "options": "监控"
+        },
+        {
+          "optionsnum": "E",
+          "options": "收尾"
+        }
+      ]
+    },
+    {
+      "id": "ff8080818c4360c4018c6b0da2a7545e",
+      "type": "1",
+      "topic": "数据标准化处理主要涉及两个方面，分别是（）。",
+      "parsing": "BC",
+      "options": [
+        {
+          "optionsnum": "A",
+          "options": "最优化处理"
+        },
+        {
+          "optionsnum": "B",
+          "options": "数据同趋化处理"
+        },
+        {
+          "optionsnum": "C",
+          "options": "无量纲化处理"
+        },
+        {
+          "optionsnum": "D",
+          "options": "数据最大量处理"
+        }
+      ]
+    },
+    {
+      "id": "ff8080818c4360c4018c6b0da2a75463",
+      "type": "1",
+      "topic": "数据规约是一种数据预处理技术，常见的方法包括（）。",
+      "parsing": "BC",
+      "options": [
+        {
+          "optionsnum": "A",
+          "options": "样本归约"
+        },
+        {
+          "optionsnum": "B",
+          "options": "数据采样"
+        },
+        {
+          "optionsnum": "C",
+          "options": "属性选择"
+        },
+        {
+          "optionsnum": "D",
+          "options": "特征归约"
+        },
+        {
+          "optionsnum": "E",
+          "options": "特征值归约"
+        }
+      ]
+    },
+    {
+      "id": "ff8080818c4360c4018c6b0da2a75468",
+      "type": "1",
+      "topic": "实时的数据标注质量检验方法具有多个优点，包括（）。",
+      "parsing": "ABDE",
+      "options": [
+        {
+          "optionsnum": "A",
+          "options": "能够及时发现问题并解决问题"
+        },
+        {
+          "optionsnum": "B",
+          "options": "能够有效减少标注过程中重复错误的重复出现"
+        },
+        {
+          "optionsnum": "C",
+          "options": "对于人员的配备及管理要求较高"
+        },
+        {
+          "optionsnum": "D",
+          "options": "能够保证整体标注任务的流畅性"
+        },
+        {
+          "optionsnum": "E",
+          "options": "能够实时掌握数据标准的任务进度"
+        }
+      ]
+    },
+    {
+      "id": "ff8080818c4360c4018c6b0da2a7546e",
+      "type": "1",
+      "topic": "图像标注常用的方式包括（）。",
+      "parsing": "AB",
+      "options": [
+        {
+          "optionsnum": "A",
+          "options": "标框标注"
+        },
+        {
+          "optionsnum": "B",
+          "options": "区域标注"
+        },
+        {
+          "optionsnum": "C",
+          "options": "语音标注"
+        },
+        {
+          "optionsnum": "D",
+          "options": "视频标注"
+        }
+      ]
+    },
+    {
+      "id": "ff8080818c4360c4018c6b0da2a75473",
+      "type": "1",
+      "topic": "对人脸数据进行标注通常包括（）。",
+      "parsing": "AB",
+      "options": [
+        {
+          "optionsnum": "A",
+          "options": "人脸位置标框标注"
+        },
+        {
+          "optionsnum": "B",
+          "options": "特征点描点标注"
+        },
+        {
+          "optionsnum": "C",
+          "options": "分类标注"
+        },
+        {
+          "optionsnum": "D",
+          "options": "关系标注"
+        }
+      ]
+    },
+    {
+      "id": "ff8080818c4360c4018c6b0da2a75479",
+      "type": "1",
+      "topic": "常用的文件扩展名，用于存储图像数据的标注结果，其中包括（）。",
+      "parsing": "BD",
+      "options": [
+        {
+          "optionsnum": "A",
+          "options": "TXT"
+        },
+        {
+          "optionsnum": "B",
+          "options": "JSON"
+        },
+        {
+          "optionsnum": "C",
+          "options": "EXE"
+        },
+        {
+          "optionsnum": "D",
+          "options": "XML"
+        }
+      ]
+    },
+    {
+      "id": "ff8080818c4360c4018c6b0da2a7547f",
+      "type": "1",
+      "topic": "Python提供了多个数据合并的函数，包括（）。",
+      "parsing": "ABCD",
+      "options": [
+        {
+          "optionsnum": "A",
+          "options": "concat()"
+        },
+        {
+          "optionsnum": "B",
+          "options": "merge()"
+        },
+        {
+          "optionsnum": "C",
+          "options": "join()"
+        },
+        {
+          "optionsnum": "D",
+          "options": "append()"
+        }
+      ]
+    },
+    {
+      "id": "ff8080818c4360c4018c6b0da2a75484",
+      "type": "1",
+      "topic": "下列选项中，（）是导致数据不完整的原因。",
+      "parsing": "ACD",
+      "options": [
+        {
+          "optionsnum": "A",
+          "options": "数据收集工具的问题"
+        },
+        {
+          "optionsnum": "B",
+          "options": "数据源不同所致"
+        },
+        {
+          "optionsnum": "C",
+          "options": "数据输入"
+        },
+        {
+          "optionsnum": "D",
+          "options": "传输错误"
+        }
+      ]
+    },
+    {
+      "id": "ff8080818c4360c4018c6b0da2a75489",
+      "type": "1",
+      "topic": "在错误识别阶段，利用（）等技术，自动检测数据属性中的错误。",
+      "parsing": "ABC",
+      "options": [
+        {
+          "optionsnum": "A",
+          "options": "统计"
+        },
+        {
+          "optionsnum": "B",
+          "options": "聚类"
+        },
+        {
+          "optionsnum": "C",
+          "options": "关联规则"
+        },
+        {
+          "optionsnum": "D",
+          "options": "随机抽取"
+        }
+      ]
+    },
+    {
+      "id": "ff8080818c4360c4018c6b0da2a7548f",
+      "type": "1",
+      "topic": "人工智能数据采集中使用的传感器有哪些（）。",
+      "parsing": "ABCD",
+      "options": [
+        {
+          "optionsnum": "A",
+          "options": "温度传感器"
+        },
+        {
+          "optionsnum": "B",
+          "options": "湿度传感器"
+        },
+        {
+          "optionsnum": "C",
+          "options": "压力传感器"
+        },
+        {
+          "optionsnum": "D",
+          "options": "微波雷达"
+        }
+      ]
+    },
+    {
+      "id": "ff8080818c4360c4018c6b0da2a75494",
+      "type": "1",
+      "topic": "人工智能的研究和应用是跨学科的，下面哪一项可以与人工智能相结合（）。",
+      "parsing": "AD",
+      "options": [
+        {
+          "optionsnum": "A",
+          "options": "心理学"
+        },
+        {
+          "optionsnum": "B",
+          "options": "化学"
+        },
+        {
+          "optionsnum": "C",
+          "options": "地理"
+        },
+        {
+          "optionsnum": "D",
+          "options": "经济学"
+        }
+      ]
+    },
+    {
+      "id": "ff8080818c4360c4018c6b0da2a7549a",
+      "type": "1",
+      "topic": "人工智能的优点和缺点都包含哪些方面（）。",
+      "parsing": "ABCD",
+      "options": [
+        {
+          "optionsnum": "A",
+          "options": "提高效率和降低成本"
+        },
+        {
+          "optionsnum": "B",
+          "options": "需要大量的训练数据和标注"
+        },
+        {
+          "optionsnum": "C",
+          "options": "更好地懂得情境和语义"
+        },
+        {
+          "optionsnum": "D",
+          "options": "可能引发就业变化和道德问题"
+        }
+      ]
+    },
+    {
+      "id": "ff8080818c4360c4018c6b0da2a7549f",
+      "type": "1",
+      "topic": "人工智能技术在教育领域的应用可以实现哪些方面的改进（）。",
+      "parsing": "ABCD",
+      "options": [
+        {
+          "optionsnum": "A",
+          "options": "个性化教育"
+        },
+        {
+          "optionsnum": "B",
+          "options": "智能化教学管理"
+        },
+        {
+          "optionsnum": "C",
+          "options": "智能化评价与考核"
+        },
+        {
+          "optionsnum": "D",
+          "options": "智能化学习资源管理"
+        }
+      ]
+    },
+    {
+      "id": "ff8080818c4360c4018c6b0da2a854a4",
+      "type": "1",
+      "topic": "人工智能的发展给人类带来了哪些影响（）。",
+      "parsing": "BD",
+      "options": [
+        {
+          "optionsnum": "A",
+          "options": "缓解了经济压力"
+        },
+        {
+          "optionsnum": "B",
+          "options": "提高了生活质量"
+        },
+        {
+          "optionsnum": "C",
+          "options": "加速了工业化进程"
+        },
+        {
+          "optionsnum": "D",
+          "options": "增加了社会不平等"
+        }
+      ]
+    },
+    {
+      "id": "ff8080818c4360c4018c6b0da2a854a9",
+      "type": "1",
+      "topic": "人工智能在医疗领域的应用可以实现哪些方面的改进（）。",
+      "parsing": "ABCD",
+      "options": [
+        {
+          "optionsnum": "A",
+          "options": "加强疾病预防和控制"
+        },
+        {
+          "optionsnum": "B",
+          "options": "提高医疗服务效率和准确性"
+        },
+        {
+          "optionsnum": "C",
+          "options": "减少医疗费用和用药成本"
+        },
+        {
+          "optionsnum": "D",
+          "options": "缓解医疗资源短缺问题"
+        }
+      ]
+    },
+    {
+      "id": "ff8080818c4360c4018c6b0da2a854ae",
+      "type": "1",
+      "topic": "人工智能的发展与隐私保护之间存在哪些关系（）。",
+      "parsing": "AB",
+      "options": [
+        {
+          "optionsnum": "A",
+          "options": "人工智能会增加隐私泄露的风险"
+        },
+        {
+          "optionsnum": "B",
+          "options": "人工智能可以增强隐私保护的效果"
+        },
+        {
+          "optionsnum": "C",
+          "options": "隐私保护与人工智能发展没有关联"
+        },
+        {
+          "optionsnum": "D",
+          "options": "人工智能对隐私保护无影响"
+        }
+      ]
+    },
+    {
+      "id": "ff8080818c4360c4018c6b0da2a854b3",
+      "type": "1",
+      "topic": "（）是处理重复数据的常用方法。",
+      "parsing": "AD",
+      "options": [
+        {
+          "optionsnum": "A",
+          "options": "合并"
+        },
+        {
+          "optionsnum": "B",
+          "options": "留存"
+        },
+        {
+          "optionsnum": "C",
+          "options": "拷贝"
+        },
+        {
+          "optionsnum": "D",
+          "options": "消除"
+        }
+      ]
+    },
+    {
+      "id": "ff8080818c4360c4018c6b0da2a854b8",
+      "type": "1",
+      "topic": "语音分割标注可分为（）几种方式。",
+      "parsing": "ABCD",
+      "options": [
+        {
+          "optionsnum": "A",
+          "options": "有效片段分割"
+        },
+        {
+          "optionsnum": "B",
+          "options": "无效片段分割"
+        },
+        {
+          "optionsnum": "C",
+          "options": "主说话人语音分割"
+        },
+        {
+          "optionsnum": "D",
+          "options": "起止时间段分割"
+        }
+      ]
+    },
+    {
+      "id": "ff8080818c4360c4018c6b0da2a854bd",
+      "type": "1",
+      "topic": "（）是最常使用文本标注应用的行业。",
+      "parsing": "BCD",
+      "options": [
+        {
+          "optionsnum": "A",
+          "options": "安防行业"
+        },
+        {
+          "optionsnum": "B",
+          "options": "客服行业"
+        },
+        {
+          "optionsnum": "C",
+          "options": "金融行业"
+        },
+        {
+          "optionsnum": "D",
+          "options": "医疗行业"
+        }
+      ]
+    },
+    {
+      "id": "ff8080818c4360c4018c6b0da2a854c2",
+      "type": "1",
+      "topic": "语义分割是一种应用（）等技术的方法，它能够将一幅图像分割成多个区域，每个区域能够被赋予一个具有语义含义的标签。",
+      "parsing": "ABC",
+      "options": [
+        {
+          "optionsnum": "A",
+          "options": "图像分类"
+        },
+        {
+          "optionsnum": "B",
+          "options": "目标检测"
+        },
+        {
+          "optionsnum": "C",
+          "options": "图像分割"
+        },
+        {
+          "optionsnum": "D",
+          "options": "声纹识别"
+        }
+      ]
+    },
+    {
+      "id": "ff8080818c4360c4018c6b0da2a854c7",
+      "type": "1",
+      "topic": "文本标注主要包含（）类型。",
+      "parsing": "BCD",
+      "options": [
+        {
+          "optionsnum": "A",
+          "options": "音素标注"
+        },
+        {
+          "optionsnum": "B",
+          "options": "序列标注"
+        },
+        {
+          "optionsnum": "C",
+          "options": "关系标注"
+        },
+        {
+          "optionsnum": "D",
+          "options": "属性标注"
+        }
+      ]
+    },
+    {
+      "id": "ff8080818c4360c4018c6b0da2a854cc",
+      "type": "1",
+      "topic": "测试人工智能模型需要考虑（）。",
+      "parsing": "ABCD",
+      "options": [
+        {
+          "optionsnum": "A",
+          "options": "测试用例"
+        },
+        {
+          "optionsnum": "B",
+          "options": "测试方法"
+        },
+        {
+          "optionsnum": "C",
+          "options": "测试计划"
+        },
+        {
+          "optionsnum": "D",
+          "options": "测试报告"
+        }
+      ]
+    },
+    {
+      "id": "ff8080818c4360c4018c6b0da2a854d1",
+      "type": "1",
+      "topic": "测试报告可以分为两种类型，分别是（）。",
+      "parsing": "AB",
+      "options": [
+        {
+          "optionsnum": "A",
+          "options": "版本测试报告"
+        },
+        {
+          "optionsnum": "B",
+          "options": "总结测试报告"
+        },
+        {
+          "optionsnum": "C",
+          "options": "单元测试报告"
+        },
+        {
+          "optionsnum": "D",
+          "options": "集成测试报告"
+        }
+      ]
+    },
+    {
+      "id": "ff8080818c4360c4018c6b0da2a854d6",
+      "type": "1",
+      "topic": "版本测试报告中的测试过程缺陷统计应当记录相关指标，包括（）。",
+      "parsing": "ABCD",
+      "options": [
+        {
+          "optionsnum": "A",
+          "options": "新建bug数"
+        },
+        {
+          "optionsnum": "B",
+          "options": "修复bug数"
+        },
+        {
+          "optionsnum": "C",
+          "options": "未修复bug数"
+        },
+        {
+          "optionsnum": "D",
+          "options": "bug总数"
+        }
+      ]
+    },
+    {
+      "id": "ff8080818c4360c4018c6b0da2a854db",
+      "type": "1",
+      "topic": "常见的算法模型测试方法包括（）。",
+      "parsing": "ABC",
+      "options": [
+        {
+          "optionsnum": "A",
+          "options": "分类算法测试"
+        },
+        {
+          "optionsnum": "B",
+          "options": "回归算法测试"
+        },
+        {
+          "optionsnum": "C",
+          "options": "聚类算法测试"
+        },
+        {
+          "optionsnum": "D",
+          "options": "关联规则算法测试"
+        }
+      ]
+    },
+    {
+      "id": "ff8080818c4360c4018c6b0da2a854e0",
+      "type": "1",
+      "topic": "算法测试中，用于评价分类算法模型的有效指标有（），它们的最佳表现均为0。",
+      "parsing": "ABC",
+      "options": [
+        {
+          "optionsnum": "A",
+          "options": "Recall"
+        },
+        {
+          "optionsnum": "B",
+          "options": "F1值"
+        },
+        {
+          "optionsnum": "C",
+          "options": "Cohen's Kappa系数"
+        },
+        {
+          "optionsnum": "D",
+          "options": "均方误差"
+        }
+      ]
+    },
+    {
+      "id": "ff8080818c4360c4018c6b0da2a854e5",
+      "type": "1",
+      "topic": "以下是关于针对软件非功能方面的测试用例的描述，包括（）。",
+      "parsing": "ABCD",
+      "options": [
+        {
+          "optionsnum": "A",
+          "options": "安全测试用例"
+        },
+        {
+          "optionsnum": "B",
+          "options": "性能测试用例"
+        },
+        {
+          "optionsnum": "C",
+          "options": "兼容性测试用例"
+        },
+        {
+          "optionsnum": "D",
+          "options": "故障修复测试用例"
+        }
+      ]
+    },
+    {
+      "id": "ff8080818c4360c4018c6b0da2a854ea",
+      "type": "1",
+      "topic": "对于功能测试用例的作用，正确的叙述的是（）。",
+      "parsing": "ABD",
+      "options": [
+        {
+          "optionsnum": "A",
+          "options": "可以避免测试的盲目性"
+        },
+        {
+          "optionsnum": "B",
+          "options": "使得软件测试的实施重点突出、目的明确"
+        },
+        {
+          "optionsnum": "C",
+          "options": "在回归测试中无需修正测试用例便可继续开展测试工作"
+        },
+        {
+          "optionsnum": "D",
+          "options": "可有效地节省时间和资源，提高测试效率"
+        }
+      ]
+    },
+    {
+      "id": "ff8080818c4360c4018c6b0da2a854ef",
+      "type": "1",
+      "topic": "数据可视化的基本特点涵盖（）方面。",
+      "parsing": "ABCD",
+      "options": [
+        {
+          "optionsnum": "A",
+          "options": "易懂性"
+        },
+        {
+          "optionsnum": "B",
+          "options": "必然性"
+        },
+        {
+          "optionsnum": "C",
+          "options": "片面性"
+        },
+        {
+          "optionsnum": "D",
+          "options": "专业性"
+        }
+      ]
+    },
+    {
+      "id": "ff8080818c4360c4018c6b0da2a854f4",
+      "type": "1",
+      "topic": "数据可视化是一种将数据运用集成起来的方法，它包括（）。",
+      "parsing": "ACD",
+      "options": [
+        {
+          "optionsnum": "A",
+          "options": "数据获取"
+        },
+        {
+          "optionsnum": "B",
+          "options": "导出报表"
+        },
+        {
+          "optionsnum": "C",
+          "options": "数据处理"
+        },
+        {
+          "optionsnum": "D",
+          "options": "可视化模式和可视化应用"
+        }
+      ]
+    },
+    {
+      "id": "ff8080818c4360c4018c6b0da2a854f9",
+      "type": "1",
+      "topic": "（）是属于可视化分析工具。",
+      "parsing": "ABC",
+      "options": [
+        {
+          "optionsnum": "A",
+          "options": "Excel"
+        },
+        {
+          "optionsnum": "B",
+          "options": "Processing"
+        },
+        {
+          "optionsnum": "C",
+          "options": "ECharts"
+        },
+        {
+          "optionsnum": "D",
+          "options": "PPT"
+        }
+      ]
+    },
+    {
+      "id": "ff8080818c4360c4018c6b0da2a854fe",
+      "type": "1",
+      "topic": "以下的（）情形比较适合使用曲线图。",
+      "parsing": "ABD",
+      "options": [
+        {
+          "optionsnum": "A",
+          "options": "要表示两个变量之间的函数关系"
+        },
+        {
+          "optionsnum": "B",
+          "options": "描述某种现象在时间上的发展趋势"
+        },
+        {
+          "optionsnum": "C",
+          "options": "描述各事物之间的数量大小和数量之间的差异情况"
+        },
+        {
+          "optionsnum": "D",
+          "options": "描述一种变量随另一种变量变化的情形"
+        }
+      ]
+    },
+    {
+      "id": "ff8080818c4360c4018c6b0da2a85503",
+      "type": "1",
+      "topic": "在进行机器学习时，通常需要对收集到的数据集进行分割，这个过程被称为数据集划分，即将原始数据集分为（）。",
+      "parsing": "AC",
+      "options": [
+        {
+          "optionsnum": "A",
+          "options": "训练数据集"
+        },
+        {
+          "optionsnum": "B",
+          "options": "验证数据集"
+        },
+        {
+          "optionsnum": "C",
+          "options": "测试数据集"
+        },
+        {
+          "optionsnum": "D",
+          "options": "评估数据集"
+        }
+      ]
+    },
+    {
+      "id": "ff8080818c4360c4018c6b0da2a85508",
+      "type": "1",
+      "topic": "过拟合的原因可能是由于（）导致的。",
+      "parsing": "AD",
+      "options": [
+        {
+          "optionsnum": "A",
+          "options": "模型本身过于复杂"
+        },
+        {
+          "optionsnum": "B",
+          "options": "模型本身过于简单"
+        },
+        {
+          "optionsnum": "C",
+          "options": "训练集样本过多"
+        },
+        {
+          "optionsnum": "D",
+          "options": "训练集样本过少"
+        }
+      ]
+    },
+    {
+      "id": "ff8080818c4360c4018c6b0da2a8550d",
+      "type": "1",
+      "topic": "卷积神经网络由若干基本层组成，包括（）。",
+      "parsing": "ABCDE",
+      "options": [
+        {
+          "optionsnum": "A",
+          "options": "输入层"
+        },
+        {
+          "optionsnum": "B",
+          "options": "卷积层"
+        },
+        {
+          "optionsnum": "C",
+          "options": "池化层"
+        },
+        {
+          "optionsnum": "D",
+          "options": "全连接层"
+        },
+        {
+          "optionsnum": "E",
+          "options": "输出层"
+        }
+      ]
+    },
+    {
+      "id": "ff8080818c4360c4018c6b0da2a85512",
+      "type": "1",
+      "topic": "模型复杂度和数据集大小之间存在密切关系，说法正确的是（）。",
+      "parsing": "ABC",
+      "options": [
+        {
+          "optionsnum": "A",
+          "options": "模型复杂度与训练数据集中输入数据的变化密切相关"
+        },
+        {
+          "optionsnum": "B",
+          "options": "数据集中包含的数据点变化范围越大，在不发生拟合情况下，模型就越复杂"
+        },
+        {
+          "optionsnum": "C",
+          "options": "更大的数据集可以用来构建更复杂的模型"
+        },
+        {
+          "optionsnum": "D",
+          "options": "仅复制相同的数据点或收集非常相似的数据，对构建复杂模型也有非常大的帮助"
+        }
+      ]
+    },
+    {
+      "id": "ff8080818c4360c4018c6b0da2a85517",
+      "type": "1",
+      "topic": "以下哪些是处理自然语言（NLP）的基础技术（）。",
+      "parsing": "ABC",
+      "options": [
+        {
+          "optionsnum": "A",
+          "options": "分词"
+        },
+        {
+          "optionsnum": "B",
+          "options": "实体识别"
+        },
+        {
+          "optionsnum": "C",
+          "options": "情感分析"
+        },
+        {
+          "optionsnum": "D",
+          "options": "演绎推理"
+        }
+      ]
+    },
+    {
+      "id": "ff8080818c4360c4018c6b0da2a8551c",
+      "type": "1",
+      "topic": "以下哪些机器人被用于工业制造（）。",
+      "parsing": "AB",
+      "options": [
+        {
+          "optionsnum": "A",
+          "options": "SCARA机器人"
+        },
+        {
+          "optionsnum": "B",
+          "options": "清洗机器人"
+        },
+        {
+          "optionsnum": "C",
+          "options": "医疗机器人"
+        },
+        {
+          "optionsnum": "D",
+          "options": "儿童陪护机器人"
+        }
+      ]
+    },
+    {
+      "id": "ff8080818c4360c4018c6b0da2a85521",
+      "type": "1",
+      "topic": "以下哪些企业是AI领域的领头羊（）。",
+      "parsing": "ABC",
+      "options": [
+        {
+          "optionsnum": "A",
+          "options": "亚马逊"
+        },
+        {
+          "optionsnum": "B",
+          "options": "谷歌"
+        },
+        {
+          "optionsnum": "C",
+          "options": "脸书"
+        },
+        {
+          "optionsnum": "D",
+          "options": "全球通"
+        }
+      ]
+    },
+    {
+      "id": "ff8080818c4360c4018c6b0da2a85526",
+      "type": "1",
+      "topic": "在什么情况下标注师需要调整自己的标注方式和标注准则（）。",
+      "parsing": "ABCD",
+      "options": [
+        {
+          "optionsnum": "A",
+          "options": "数据的特点和需求发生变化"
+        },
+        {
+          "optionsnum": "B",
+          "options": "标注师个人的理解和标注方式产生了偏差"
+        },
+        {
+          "optionsnum": "C",
+          "options": "标注队伍发生了变动，需要进行统一规范和标准化"
+        },
+        {
+          "optionsnum": "D",
+          "options": "数据样本量发生了变动，需要重新评估标注的覆盖率和准确性"
+        }
+      ]
+    },
+    {
+      "id": "ff8080818c4360c4018c6b0da2a8552b",
+      "type": "1",
+      "topic": "下面哪些是数据标注质量的度量指标（）。",
+      "parsing": "ABCD",
+      "options": [
+        {
+          "optionsnum": "A",
+          "options": "准确性"
+        },
+        {
+          "optionsnum": "B",
+          "options": "一致性"
+        },
+        {
+          "optionsnum": "C",
+          "options": "可重复性"
+        },
+        {
+          "optionsnum": "D",
+          "options": "覆盖率、质量得分"
+        }
+      ]
+    },
+    {
+      "id": "ff8080818c4360c4018c6b0da2a85530",
+      "type": "1",
+      "topic": "标注师需要注意哪些标准来保证标注数据的准确性（）。",
+      "parsing": "ABC",
+      "options": [
+        {
+          "optionsnum": "A",
+          "options": "数据的上下文和环境"
+        },
+        {
+          "optionsnum": "B",
+          "options": "标注的领域和专业知识"
+        },
+        {
+          "optionsnum": "C",
+          "options": "标注的对象和属性"
+        },
+        {
+          "optionsnum": "D",
+          "options": "标注数据的保密性和安全性"
+        }
+      ]
+    },
+    {
+      "id": "ff8080818c4360c4018c6b0da2a85535",
+      "type": "1",
+      "topic": "（）是常用的聚类性能度量外部指标。",
+      "parsing": "ABC",
+      "options": [
+        {
+          "optionsnum": "A",
+          "options": "Jaccard系数"
+        },
+        {
+          "optionsnum": "B",
+          "options": "FM指数"
+        },
+        {
+          "optionsnum": "C",
+          "options": "Rand指数"
+        },
+        {
+          "optionsnum": "D",
+          "options": "B指数"
+        }
+      ]
+    },
+    {
+      "id": "ff8080818c4360c4018c6b0da2a8553a",
+      "type": "1",
+      "topic": "（）是常用的聚类性能度量内部指标。",
+      "parsing": "AC",
+      "options": [
+        {
+          "optionsnum": "A",
+          "options": "DB指数"
+        },
+        {
+          "optionsnum": "B",
+          "options": "Rand指数"
+        },
+        {
+          "optionsnum": "C",
+          "options": "Dunn指数"
+        },
+        {
+          "optionsnum": "D",
+          "options": "FM指数"
+        }
+      ]
+    },
+    {
+      "id": "ff8080818c4360c4018c6b0da2a8553f",
+      "type": "1",
+      "topic": "根据数据分析的深度，数据分析可分为（）。",
+      "parsing": "BCD",
+      "options": [
+        {
+          "optionsnum": "A",
+          "options": "筛选性分析"
+        },
+        {
+          "optionsnum": "B",
+          "options": "描述性分析"
+        },
+        {
+          "optionsnum": "C",
+          "options": "预测性分析"
+        },
+        {
+          "optionsnum": "D",
+          "options": "规则性分析"
+        }
+      ]
+    },
+    {
+      "id": "ff8080818c4360c4018c6b0da2a85544",
+      "type": "1",
+      "topic": "（）属于基本的数据统计分析方法。",
+      "parsing": "ABCD",
+      "options": [
+        {
+          "optionsnum": "A",
+          "options": "最邻近算法"
+        },
+        {
+          "optionsnum": "B",
+          "options": "Kernel算法"
+        },
+        {
+          "optionsnum": "C",
+          "options": "PCA算法"
+        },
+        {
+          "optionsnum": "D",
+          "options": "图论算法"
+        }
+      ]
+    },
+    {
+      "id": "ff8080818c4360c4018c6b0da2a85549",
+      "type": "1",
+      "topic": "（）属于线性模型。",
+      "parsing": "BCD",
+      "options": [
+        {
+          "optionsnum": "A",
+          "options": "决策树"
+        },
+        {
+          "optionsnum": "B",
+          "options": "多项式回归"
+        },
+        {
+          "optionsnum": "C",
+          "options": "Lasso回归"
+        },
+        {
+          "optionsnum": "D",
+          "options": "岭回归"
+        }
+      ]
+    },
+    {
+      "id": "ff8080818c4360c4018c6b0da2a8554f",
+      "type": "1",
+      "topic": "对比分析的常用维度包括（）。",
+      "parsing": "ABCDE",
+      "options": [
+        {
+          "optionsnum": "A",
+          "options": "与目标对比"
+        },
+        {
+          "optionsnum": "B",
+          "options": "不同时期对比"
+        },
+        {
+          "optionsnum": "C",
+          "options": "同级同部门、地区对比"
+        },
+        {
+          "optionsnum": "D",
+          "options": "行业内对比"
+        },
+        {
+          "optionsnum": "E",
+          "options": "活动效果对比"
+        }
+      ]
+    },
+    {
+      "id": "ff8080818c4360c4018c6b0da2a85554",
+      "type": "1",
+      "topic": "回归分析的一般流程涉及到（）步骤。",
+      "parsing": "ABCD",
+      "options": [
+        {
+          "optionsnum": "A",
+          "options": "初设回归方程"
+        },
+        {
+          "optionsnum": "B",
+          "options": "求出合理的回归系数"
+        },
+        {
+          "optionsnum": "C",
+          "options": "相关性检验，确定相关系数"
+        },
+        {
+          "optionsnum": "D",
+          "options": "计算预测值的置信区间"
+        }
+      ]
+    },
+    {
+      "id": "ff8080818c4360c4018c6b0da2a85559",
+      "type": "1",
+      "topic": "某个APP的同一项功能采用AB测试方法进行优化，包含的内容有（）。",
+      "parsing": "ACD",
+      "options": [
+        {
+          "optionsnum": "A",
+          "options": "设计不同的样式风格"
+        },
+        {
+          "optionsnum": "B",
+          "options": "只是设计一种页面布局"
+        },
+        {
+          "optionsnum": "C",
+          "options": "将不同风格的页面随机分配给使用者"
+        },
+        {
+          "optionsnum": "D",
+          "options": "根绝浏览转化率来评估样式优劣"
+        }
+      ]
+    },
+    {
+      "id": "ff8080818c4360c4018c6b0da2a8555e",
+      "type": "1",
+      "topic": "关于贝叶斯定理针对的可能性函数，说法正确的是（）。",
+      "parsing": "AD",
+      "options": [
+        {
+          "optionsnum": "A",
+          "options": "如果可能性函数大于1，意味着先验概率被增强"
+        },
+        {
+          "optionsnum": "B",
+          "options": "如果可能性函数小于1，意味着先验概率被增强"
+        },
+        {
+          "optionsnum": "C",
+          "options": "如果可能性函数大于1，意味着先验概率被削弱"
+        },
+        {
+          "optionsnum": "D",
+          "options": "如果可能性函数小于1，意味着先验概率被削弱"
+        }
+      ]
+    },
+    {
+      "id": "ff8080818c4360c4018c6b0da2a95563",
+      "type": "1",
+      "topic": "关于均值说法，正确的是（）。",
+      "parsing": "BCD",
+      "options": [
+        {
+          "optionsnum": "A",
+          "options": "均值适用于分类数据"
+        },
+        {
+          "optionsnum": "B",
+          "options": "概况一个数值型数据集合的指标"
+        },
+        {
+          "optionsnum": "C",
+          "options": "均值就是平均数"
+        },
+        {
+          "optionsnum": "D",
+          "options": "容易收到极端值或离群点的影响"
+        }
+      ]
+    },
+    {
+      "id": "ff8080818c4360c4018c6b0da2a95568",
+      "type": "1",
+      "topic": "描述性统计分析是一种数据分析方法，主要用于展示数据集合中的一些重要特征，例如（）。",
+      "parsing": "ABCD",
+      "options": [
+        {
+          "optionsnum": "A",
+          "options": "集中趋势"
+        },
+        {
+          "optionsnum": "B",
+          "options": "离散程度"
+        },
+        {
+          "optionsnum": "C",
+          "options": "频数分布"
+        },
+        {
+          "optionsnum": "D",
+          "options": "可行范围"
+        }
+      ]
+    },
+    {
+      "id": "ff8080818c4360c4018c6b0da2a9556d",
+      "type": "1",
+      "topic": "（）是常见的探索性统计分析方法。",
+      "parsing": "BCD",
+      "options": [
+        {
+          "optionsnum": "A",
+          "options": "时间序列分析"
+        },
+        {
+          "optionsnum": "B",
+          "options": "聚类分析"
+        },
+        {
+          "optionsnum": "C",
+          "options": "因子分析"
+        },
+        {
+          "optionsnum": "D",
+          "options": "对应分析"
+        }
+      ]
+    },
+    {
+      "id": "ff8080818c4360c4018c6b0da2a95572",
+      "type": "1",
+      "topic": "（）是常用的推断性统计分析方法。",
+      "parsing": "ABCD",
+      "options": [
+        {
+          "optionsnum": "A",
+          "options": "假设检验"
+        },
+        {
+          "optionsnum": "B",
+          "options": "相关分析"
+        },
+        {
+          "optionsnum": "C",
+          "options": "回归分析"
+        },
+        {
+          "optionsnum": "D",
+          "options": "时间序列分析"
+        }
+      ]
+    },
+    {
+      "id": "ff8080818c4360c4018c6b0da2a95577",
+      "type": "1",
+      "topic": "（）是常见的降维方法。",
+      "parsing": "CD",
+      "options": [
+        {
+          "optionsnum": "A",
+          "options": "结合分析"
+        },
+        {
+          "optionsnum": "B",
+          "options": "回归分析"
+        },
+        {
+          "optionsnum": "C",
+          "options": "投影"
+        },
+        {
+          "optionsnum": "D",
+          "options": "流形学习"
+        }
+      ]
+    },
+    {
+      "id": "ff8080818c4360c4018c6b0da2a9557d",
+      "type": "1",
+      "topic": "当你使用Matplotlib绘制条形图时，barh()函数是一种常见的工具，它的参数通常包括（）。",
+      "parsing": "ABCD",
+      "options": [
+        {
+          "optionsnum": "A",
+          "options": "y"
+        },
+        {
+          "optionsnum": "B",
+          "options": "left"
+        },
+        {
+          "optionsnum": "C",
+          "options": "align"
+        },
+        {
+          "optionsnum": "D",
+          "options": "color"
+        }
+      ]
+    },
+    {
+      "id": "ff8080818c4360c4018c6b0da2a95582",
+      "type": "1",
+      "topic": "Matplotlib中绘制柱状图时，bar()函数可以选择不同的对齐方式，包括（）。",
+      "parsing": "BC",
+      "options": [
+        {
+          "optionsnum": "A",
+          "options": "color"
+        },
+        {
+          "optionsnum": "B",
+          "options": "center"
+        },
+        {
+          "optionsnum": "C",
+          "options": "edge"
+        },
+        {
+          "optionsnum": "D",
+          "options": "edgecolor"
+        }
+      ]
+    },
+    {
+      "id": "ff8080818c4360c4018c6b0da2a95587",
+      "type": "1",
+      "topic": "以下选项关于饼图的描述，正确的是（）。",
+      "parsing": "ABC",
+      "options": [
+        {
+          "optionsnum": "A",
+          "options": "一种用来描述定性数据频数或百分比的图形"
+        },
+        {
+          "optionsnum": "B",
+          "options": "通常以圆饼或椭圆饼的形式出现"
+        },
+        {
+          "optionsnum": "C",
+          "options": "饼图的整个圆代表一个总体的全部数据"
+        },
+        {
+          "optionsnum": "D",
+          "options": "圆中的一个扇形表示总体的全部类型"
+        }
+      ]
+    },
+    {
+      "id": "ff8080818c4360c4018c6b0da2a9558c",
+      "type": "1",
+      "topic": "如何提高标注数据的准确性（）。",
+      "parsing": "BC",
+      "options": [
+        {
+          "optionsnum": "A",
+          "options": "增加数据的样本量"
+        },
+        {
+          "optionsnum": "B",
+          "options": "加入更多的专业领域知识和经验"
+        },
+        {
+          "optionsnum": "C",
+          "options": "采用多个标注师的标注结果进行比对和调整"
+        },
+        {
+          "optionsnum": "D",
+          "options": "提高标注师的工作效率和速度"
+        }
+      ]
+    },
+    {
+      "id": "ff8080818c4360c4018c6b0da2a95591",
+      "type": "1",
+      "topic": "标注师应该如何处理标注任务中的异常情况（）。",
+      "parsing": "BC",
+      "options": [
+        {
+          "optionsnum": "A",
+          "options": "忽略异常情况直接标注"
+        },
+        {
+          "optionsnum": "B",
+          "options": "根据标注的准则进行标注并记录异常情况"
+        },
+        {
+          "optionsnum": "C",
+          "options": "根据异常情况调整标注的准则和方法"
+        },
+        {
+          "optionsnum": "D",
+          "options": "退回任务并重新安排标注师进行处理"
+        }
+      ]
+    },
+    {
+      "id": "ff8080818c4360c4018c6b0da2a95596",
+      "type": "1",
+      "topic": "在进行图像标注时，需要注意哪些因素（）。",
+      "parsing": "ABCD",
+      "options": [
+        {
+          "optionsnum": "A",
+          "options": "标注的面积"
+        },
+        {
+          "optionsnum": "B",
+          "options": "标注的精度和准确性"
+        },
+        {
+          "optionsnum": "C",
+          "options": "标注的一致性和可重复性"
+        },
+        {
+          "optionsnum": "D",
+          "options": "标注的目的和任务"
+        }
+      ]
+    },
+    {
+      "id": "ff8080818c4360c4018c6b0da2a9559b",
+      "type": "1",
+      "topic": "对于一份需要标注的数据，标注师应该做什么（）。",
+      "parsing": "BC",
+      "options": [
+        {
+          "optionsnum": "A",
+          "options": "快速完成标注任务"
+        },
+        {
+          "optionsnum": "B",
+          "options": "对数据进行细致的分析和理解"
+        },
+        {
+          "optionsnum": "C",
+          "options": "确认数据标注的质量和准确性"
+        },
+        {
+          "optionsnum": "D",
+          "options": "不必考虑标注的上下文和环境"
+        }
+      ]
+    },
+    {
+      "id": "ff8080818c4360c4018c6b0da2a955a0",
+      "type": "1",
+      "topic": "在标注数据时，标注师应该注意的是（）。",
+      "parsing": "ABC",
+      "options": [
+        {
+          "optionsnum": "A",
+          "options": "尽量使用简单清晰的语言和术语"
+        },
+        {
+          "optionsnum": "B",
+          "options": "保证标注的一致性和准确性"
+        },
+        {
+          "optionsnum": "C",
+          "options": "遵循标准化的标注规范和方法"
+        },
+        {
+          "optionsnum": "D",
+          "options": "最大限度地考虑每个样本的内容信息"
+        }
+      ]
+    },
+    {
+      "id": "ff8080818c4360c4018c6b0da2a955a5",
+      "type": "1",
+      "topic": "下面哪些是常见的数据标注方式（）。",
+      "parsing": "ABCD",
+      "options": [
+        {
+          "optionsnum": "A",
+          "options": "文本标注"
+        },
+        {
+          "optionsnum": "B",
+          "options": "图像标注、视频标注"
+        },
+        {
+          "optionsnum": "C",
+          "options": "语音标注"
+        },
+        {
+          "optionsnum": "D",
+          "options": "手写标注"
+        }
+      ]
+    },
+    {
+      "id": "ff8080818c4360c4018c6b0da2a955aa",
+      "type": "1",
+      "topic": "在人机界面设计中，有很多方式可以表达用户体验，其中包括（）。",
+      "parsing": "ABD",
+      "options": [
+        {
+          "optionsnum": "A",
+          "options": "感官体验"
+        },
+        {
+          "optionsnum": "B",
+          "options": "情感体验"
+        },
+        {
+          "optionsnum": "C",
+          "options": "环境体验"
+        },
+        {
+          "optionsnum": "D",
+          "options": "文化体验"
+        }
+      ]
+    },
+    {
+      "id": "ff8080818c4360c4018c6b0da2a955af",
+      "type": "1",
+      "topic": "人机交互界面的分类主要包括（）。",
+      "parsing": "ABC",
+      "options": [
+        {
+          "optionsnum": "A",
+          "options": "纯硬件操作界面"
+        },
+        {
+          "optionsnum": "B",
+          "options": "纯软件操作界面"
+        },
+        {
+          "optionsnum": "C",
+          "options": "触控式操作界面"
+        },
+        {
+          "optionsnum": "D",
+          "options": "感应式操作界面"
+        }
+      ]
+    },
+    {
+      "id": "ff8080818c4360c4018c6b0da2a955b4",
+      "type": "1",
+      "topic": "交互性体现在（）。",
+      "parsing": "ABCD",
+      "options": [
+        {
+          "optionsnum": "A",
+          "options": "产品的技术系统"
+        },
+        {
+          "optionsnum": "B",
+          "options": "非电子类产品"
+        },
+        {
+          "optionsnum": "C",
+          "options": "服务"
+        },
+        {
+          "optionsnum": "D",
+          "options": "组织"
+        }
+      ]
+    },
+    {
+      "id": "ff8080818c4360c4018c6b0da2a955b9",
+      "type": "1",
+      "topic": "一种好的用户界面应当具有（）的特性。",
+      "parsing": "ABCD",
+      "options": [
+        {
+          "optionsnum": "A",
+          "options": "清晰、简明"
+        },
+        {
+          "optionsnum": "B",
+          "options": "熟悉、易响应"
+        },
+        {
+          "optionsnum": "C",
+          "options": "操作一致、有吸引力"
+        },
+        {
+          "optionsnum": "D",
+          "options": "高效和容错性"
+        }
+      ]
+    },
+    {
+      "id": "ff8080818c4360c4018c6b0da2a955be",
+      "type": "1",
+      "topic": "（）属于目标导向设计的流程。",
+      "parsing": "ABCDE",
+      "options": [
+        {
+          "optionsnum": "A",
+          "options": "调查研究"
+        },
+        {
+          "optionsnum": "B",
+          "options": "情境建模"
+        },
+        {
+          "optionsnum": "C",
+          "options": "定义需求"
+        },
+        {
+          "optionsnum": "D",
+          "options": "概念设计"
+        },
+        {
+          "optionsnum": "E",
+          "options": "细化和修改设计"
+        }
+      ]
+    },
+    {
+      "id": "ff8080818c4360c4018c6b0da2a955c3",
+      "type": "1",
+      "topic": "James Garrett提出的用户体验包括（）等多个方面。",
+      "parsing": "ABCD",
+      "options": [
+        {
+          "optionsnum": "A",
+          "options": "品牌特征"
+        },
+        {
+          "optionsnum": "B",
+          "options": "信息可用性"
+        },
+        {
+          "optionsnum": "C",
+          "options": "功能性"
+        },
+        {
+          "optionsnum": "D",
+          "options": "内容性"
+        }
+      ]
+    },
+    {
+      "id": "ff8080818c4360c4018c6b0da2a955c8",
+      "type": "1",
+      "topic": "在交互设计中，结构层的重点在于（）。",
+      "parsing": "BC",
+      "options": [
+        {
+          "optionsnum": "A",
+          "options": "视觉设计"
+        },
+        {
+          "optionsnum": "B",
+          "options": "交互设计"
+        },
+        {
+          "optionsnum": "C",
+          "options": "信息框架"
+        },
+        {
+          "optionsnum": "D",
+          "options": "界面"
+        }
+      ]
+    },
+    {
+      "id": "ff8080818c4360c4018c6b0da2a955cd",
+      "type": "1",
+      "topic": "在人机交互界面设计中，通常使用（）进行设计。",
+      "parsing": "ABC",
+      "options": [
+        {
+          "optionsnum": "A",
+          "options": "设计师模型"
+        },
+        {
+          "optionsnum": "B",
+          "options": "实现者模型"
+        },
+        {
+          "optionsnum": "C",
+          "options": "用户模型"
+        },
+        {
+          "optionsnum": "D",
+          "options": "机器模型"
+        }
+      ]
+    },
+    {
+      "id": "ff8080818c4360c4018c6b0da2a955d2",
+      "type": "1",
+      "topic": "交互设计作为一门跨学科的研究领域，涉及多个方面，例如（）。",
+      "parsing": "ABCD",
+      "options": [
+        {
+          "optionsnum": "A",
+          "options": "信息架构设计"
+        },
+        {
+          "optionsnum": "B",
+          "options": "视觉传达设计"
+        },
+        {
+          "optionsnum": "C",
+          "options": "工业设计"
+        },
+        {
+          "optionsnum": "D",
+          "options": "人机工程学"
+        }
+      ]
+    },
+    {
+      "id": "ff8080818c4360c4018c6b0da2a955d7",
+      "type": "1",
+      "topic": "以下（）属于交互系统设计的步骤。。",
+      "parsing": "ABCD",
+      "options": [
+        {
+          "optionsnum": "A",
+          "options": "需求分析、用户研究"
+        },
+        {
+          "optionsnum": "B",
+          "options": "概念设计、信息架构设计"
+        },
+        {
+          "optionsnum": "C",
+          "options": "原型设计、交互方式设计"
+        },
+        {
+          "optionsnum": "D",
+          "options": "视觉设计、程序实现"
+        }
+      ]
+    },
+    {
+      "id": "ff8080818c4360c4018c6b0da2a955dc",
+      "type": "1",
+      "topic": "标注师需要具备哪些技能（）。",
+      "parsing": "ABC",
+      "options": [
+        {
+          "optionsnum": "A",
+          "options": "严谨的逻辑思维和分析能力"
+        },
+        {
+          "optionsnum": "B",
+          "options": "熟悉数据标注相关工具和软件的使用"
+        },
+        {
+          "optionsnum": "C",
+          "options": "对被标注的数据领域有较强的了解"
+        },
+        {
+          "optionsnum": "D",
+          "options": "全面掌握机器学习和深度学习算法"
+        }
+      ]
+    },
+    {
+      "id": "ff8080818c4360c4018c6b0da2a955e1",
+      "type": "1",
+      "topic": "在AI系统运维中，以下哪项措施可以提高系统的稳定性（）。",
+      "parsing": "BC",
+      "options": [
+        {
+          "optionsnum": "A",
+          "options": "使用最新的硬件设备"
+        },
+        {
+          "optionsnum": "B",
+          "options": "使用稳定的容器或虚拟化技术"
+        },
+        {
+          "optionsnum": "C",
+          "options": "使用最新的操作系统版本"
+        },
+        {
+          "optionsnum": "D",
+          "options": "及时清理系统垃圾文件"
+        }
+      ]
+    },
+    {
+      "id": "ff8080818c4360c4018c6b0da2a955e6",
+      "type": "1",
+      "topic": "在AI系统运维中，以下哪项措施可以提高系统的安全性（）。",
+      "parsing": "ABC",
+      "options": [
+        {
+          "optionsnum": "A",
+          "options": "定期备份数据"
+        },
+        {
+          "optionsnum": "B",
+          "options": "确保系统补丁及时更新"
+        },
+        {
+          "optionsnum": "C",
+          "options": "加密敏感数据传输"
+        },
+        {
+          "optionsnum": "D",
+          "options": "开启系统所有账户的root权限"
+        }
+      ]
+    },
+    {
+      "id": "ff8080818c4360c4018c6b0da2aa55eb",
+      "type": "1",
+      "topic": "在AI系统运维中，以下哪种方式可以有效降低系统崩溃的风险（）。",
+      "parsing": "BC",
+      "options": [
+        {
+          "optionsnum": "A",
+          "options": "使用防火墙系统"
+        },
+        {
+          "optionsnum": "B",
+          "options": "定期更新操作系统"
+        },
+        {
+          "optionsnum": "C",
+          "options": "配置系统日志告警"
+        },
+        {
+          "optionsnum": "D",
+          "options": "提高系统运行负荷"
+        }
+      ]
+    },
+    {
+      "id": "ff8080818c4360c4018c6b0da2aa55f1",
+      "type": "1",
+      "topic": "AI系统运维中，常见的日志管理方法包括哪些（）。",
+      "parsing": "ABC",
+      "options": [
+        {
+          "optionsnum": "A",
+          "options": "自动存档"
+        },
+        {
+          "optionsnum": "B",
+          "options": "数据清理"
+        },
+        {
+          "optionsnum": "C",
+          "options": "压缩归档"
+        },
+        {
+          "optionsnum": "D",
+          "options": "手动记录"
+        }
+      ]
+    },
+    {
+      "id": "ff8080818c4360c4018c6b0da2aa55f6",
+      "type": "1",
+      "topic": "AI系统运维中，以下哪项属于常见的故障类型（）。",
+      "parsing": "ABCD",
+      "options": [
+        {
+          "optionsnum": "A",
+          "options": "人为误操作"
+        },
+        {
+          "optionsnum": "B",
+          "options": "网络中断"
+        },
+        {
+          "optionsnum": "C",
+          "options": "电源故障"
+        },
+        {
+          "optionsnum": "D",
+          "options": "CPU过载"
+        }
+      ]
+    },
+    {
+      "id": "ff8080818c4360c4018c6b0da2aa55fb",
+      "type": "1",
+      "topic": "AI系统运维中，以下哪项属于常见的性能指标（）。",
+      "parsing": "AB",
+      "options": [
+        {
+          "optionsnum": "A",
+          "options": "平均响应时间"
+        },
+        {
+          "optionsnum": "B",
+          "options": "系统内存占用率"
+        },
+        {
+          "optionsnum": "C",
+          "options": "最大磁盘容量"
+        },
+        {
+          "optionsnum": "D",
+          "options": "系统安全性评估分数"
+        }
+      ]
+    },
+    {
+      "id": "ff8080818c4360c4018c6b0da2aa5600",
+      "type": "1",
+      "topic": "在AI系统运维中，下面哪种方式是常见的扩容方式（）。",
+      "parsing": "BC",
+      "options": [
+        {
+          "optionsnum": "A",
+          "options": "交换机扩容"
+        },
+        {
+          "optionsnum": "B",
+          "options": "虚拟化扩容"
+        },
+        {
+          "optionsnum": "C",
+          "options": "数据库扩容"
+        },
+        {
+          "optionsnum": "D",
+          "options": "Linux网络扩展"
+        }
+      ]
+    },
+    {
+      "id": "ff8080818c4360c4018c6b0da2aa5605",
+      "type": "1",
+      "topic": "在AI系统运维中，有哪些措施可以提高系统可用性（）。",
+      "parsing": "ABCD",
+      "options": [
+        {
+          "optionsnum": "A",
+          "options": "配备冗余硬件设备"
+        },
+        {
+          "optionsnum": "B",
+          "options": "定期备份数据"
+        },
+        {
+          "optionsnum": "C",
+          "options": "对系统进行及时升级"
+        },
+        {
+          "optionsnum": "D",
+          "options": "使用虚拟化技术"
+        }
+      ]
+    },
+    {
+      "id": "ff8080818c4360c4018c6b0da2aa560a",
+      "type": "1",
+      "topic": "AI系统运维软件是如何处理网络问题的（）。",
+      "parsing": "AD",
+      "options": [
+        {
+          "optionsnum": "A",
+          "options": "捕获和分析网络流量"
+        },
+        {
+          "optionsnum": "B",
+          "options": "支持VPN隧道"
+        },
+        {
+          "optionsnum": "C",
+          "options": "提供跟踪资源使用情况的报告"
+        },
+        {
+          "optionsnum": "D",
+          "options": "监控网络拓扑"
+        }
+      ]
+    },
+    {
+      "id": "ff8080818c4360c4018c6b0da2aa560f",
+      "type": "1",
+      "topic": "AI系统运维软件可以通过哪些方式提高效率（）。",
+      "parsing": "ABCD",
+      "options": [
+        {
+          "optionsnum": "A",
+          "options": "实现自动化"
+        },
+        {
+          "optionsnum": "B",
+          "options": "提高可伸缩性"
+        },
+        {
+          "optionsnum": "C",
+          "options": "自动扩展"
+        },
+        {
+          "optionsnum": "D",
+          "options": "降低维护成本"
+        }
+      ]
+    },
+    {
+      "id": "ff8080818c4360c4018c6b0da2aa5614",
+      "type": "1",
+      "topic": "AI系统运维软件中的警报功能主要用于什么（）。",
+      "parsing": "ABD",
+      "options": [
+        {
+          "optionsnum": "A",
+          "options": "警示管理员关于出现故障的潜在问题"
+        },
+        {
+          "optionsnum": "B",
+          "options": "监测某些资源的性能水平"
+        },
+        {
+          "optionsnum": "C",
+          "options": "记录用户应用程序的使用情况"
+        },
+        {
+          "optionsnum": "D",
+          "options": "监测服务器的硬件状况"
+        }
+      ]
+    },
+    {
+      "id": "ff8080818c4360c4018c6b0da2aa5619",
+      "type": "1",
+      "topic": "AI系统运维软件的主要优势包括以下哪些（）。",
+      "parsing": "ABCD",
+      "options": [
+        {
+          "optionsnum": "A",
+          "options": "效率提高"
+        },
+        {
+          "optionsnum": "B",
+          "options": "强大的自动化功能"
+        },
+        {
+          "optionsnum": "C",
+          "options": "提高安全性"
+        },
+        {
+          "optionsnum": "D",
+          "options": "降低维护成本"
+        }
+      ]
+    },
+    {
+      "id": "ff8080818c4360c4018c6b0da2aa561e",
+      "type": "1",
+      "topic": "语音交互系统采用的途径有（）。",
+      "parsing": "ABC",
+      "options": [
+        {
+          "optionsnum": "A",
+          "options": "用基于语音识别和理解技术"
+        },
+        {
+          "optionsnum": "B",
+          "options": "依靠音频进行交互"
+        },
+        {
+          "optionsnum": "C",
+          "options": "利用语音技术与系统的其他交互方式结合"
+        },
+        {
+          "optionsnum": "D",
+          "options": "眼神传递信息"
+        }
+      ]
+    },
+    {
+      "id": "ff8080818c4360c4018c6b0da2aa5623",
+      "type": "1",
+      "topic": "语音识别技术将人类的语言转化为计算机能够理解的形式，例如将语言内容转换为（）。",
+      "parsing": "ABD",
+      "options": [
+        {
+          "optionsnum": "A",
+          "options": "输入按键"
+        },
+        {
+          "optionsnum": "B",
+          "options": "二进制编码"
+        },
+        {
+          "optionsnum": "C",
+          "options": "绘图"
+        },
+        {
+          "optionsnum": "D",
+          "options": "字符序列"
+        }
+      ]
+    },
+    {
+      "id": "ff8080818c4360c4018c6b0da2aa5628",
+      "type": "1",
+      "topic": "初级数据标注员需要掌握（）等数据标注类型的基本操作技能。",
+      "parsing": "ABCD",
+      "options": [
+        {
+          "optionsnum": "A",
+          "options": "2D图像标注"
+        },
+        {
+          "optionsnum": "B",
+          "options": "文字标注"
+        },
+        {
+          "optionsnum": "C",
+          "options": "图像采集"
+        },
+        {
+          "optionsnum": "D",
+          "options": "语音标注"
+        }
+      ]
+    },
+    {
+      "id": "ff8080818c4360c4018c6b0da2aa562d",
+      "type": "1",
+      "topic": "语音识别技术将人类的语言转化为计算机能够理解的形式，例如将语言内容转换为（）。",
+      "parsing": "ABD",
+      "options": [
+        {
+          "optionsnum": "A",
+          "options": "输入按键"
+        },
+        {
+          "optionsnum": "B",
+          "options": "二进制编码"
+        },
+        {
+          "optionsnum": "C",
+          "options": "绘图"
+        },
+        {
+          "optionsnum": "D",
+          "options": "字符序列"
+        }
+      ]
+    },
+    {
+      "id": "ff8080818c4360c4018c6b0da2aa5632",
+      "type": "1",
+      "topic": "语音特征提取的过程包含（）步骤。",
+      "parsing": "AB",
+      "options": [
+        {
+          "optionsnum": "A",
+          "options": "声音录入"
+        },
+        {
+          "optionsnum": "B",
+          "options": "数字化采样"
+        },
+        {
+          "optionsnum": "C",
+          "options": "信号预处理"
+        },
+        {
+          "optionsnum": "D",
+          "options": "模型匹配"
+        }
+      ]
+    },
+    {
+      "id": "ff8080818c4360c4018c6b0da2aa5637",
+      "type": "1",
+      "topic": "一个全面的语音识别系统可以分为（）几个部分。",
+      "parsing": "ACD",
+      "options": [
+        {
+          "optionsnum": "A",
+          "options": "语音特征提取"
+        },
+        {
+          "optionsnum": "B",
+          "options": "字典建立"
+        },
+        {
+          "optionsnum": "C",
+          "options": "声学模型与模式匹配"
+        },
+        {
+          "optionsnum": "D",
+          "options": "语意理解"
+        }
+      ]
+    },
+    {
+      "id": "ff8080818c4360c4018c6b0da2aa563c",
+      "type": "1",
+      "topic": "建立一个完整的数据标注培训体系，包括（），以培养和提高数据标注员的能力和素质。",
+      "parsing": "ABC",
+      "options": [
+        {
+          "optionsnum": "A",
+          "options": "建立严格的培训流程"
+        },
+        {
+          "optionsnum": "B",
+          "options": "有完善的职称等级制度"
+        },
+        {
+          "optionsnum": "C",
+          "options": "设立激励制度"
+        },
+        {
+          "optionsnum": "D",
+          "options": "提供多元化的美食"
+        }
+      ]
+    },
+    {
+      "id": "ff8080818c4360c4018c6b0da2aa5641",
+      "type": "1",
+      "topic": "初级数据标注员需要掌握（）等数据标注类型的基本操作技能。",
+      "parsing": "ABCD",
+      "options": [
+        {
+          "optionsnum": "A",
+          "options": "2D图像标注"
+        },
+        {
+          "optionsnum": "B",
+          "options": "文字标注"
+        },
+        {
+          "optionsnum": "C",
+          "options": "图像采集"
+        },
+        {
+          "optionsnum": "D",
+          "options": "语音标注"
+        }
+      ]
+    },
+    {
+      "id": "ff8080818c4360c4018c6b0da2aa5646",
+      "type": "1",
+      "topic": "帮助有超过两周以上标注经验的数据标注员提升质量，计划内容包括（）。",
+      "parsing": "ABCD",
+      "options": [
+        {
+          "optionsnum": "A",
+          "options": "强化基础数据标注规范，查漏补缺"
+        },
+        {
+          "optionsnum": "B",
+          "options": "数据标注过程问题总结指导"
+        },
+        {
+          "optionsnum": "C",
+          "options": "质检一条其他人的数据"
+        },
+        {
+          "optionsnum": "D",
+          "options": "培训员进行指导，能力巩固"
+        }
+      ]
+    },
+    {
+      "id": "ff8080818c4360c4018c6b0da2aa564b",
+      "type": "1",
+      "topic": "数据主要来源包括以下（）。",
+      "parsing": "BCD",
+      "options": [
+        {
+          "optionsnum": "A",
+          "options": "手写字以及画图数据"
+        },
+        {
+          "optionsnum": "B",
+          "options": "泛互联网数据"
+        },
+        {
+          "optionsnum": "C",
+          "options": "大量传感器的机器数据"
+        },
+        {
+          "optionsnum": "D",
+          "options": "行业的多结构专业数据"
+        }
+      ]
+    },
+    {
+      "id": "ff8080818c4360c4018c6b0da2aa5650",
+      "type": "1",
+      "topic": "数据预处理包括（）等方面的工作。",
+      "parsing": "ABCD",
+      "options": [
+        {
+          "optionsnum": "A",
+          "options": "数据清理"
+        },
+        {
+          "optionsnum": "B",
+          "options": "数据集成"
+        },
+        {
+          "optionsnum": "C",
+          "options": "数据变换"
+        },
+        {
+          "optionsnum": "D",
+          "options": "数据归约"
+        }
+      ]
+    },
+    {
+      "id": "ff8080818c4360c4018c6b0da2aa5655",
+      "type": "1",
+      "topic": "Kettle是一款数据（）工具，旨在帮助用户更便捷地管理数据。",
+      "parsing": "BD",
+      "options": [
+        {
+          "optionsnum": "A",
+          "options": "复制"
+        },
+        {
+          "optionsnum": "B",
+          "options": "转换"
+        },
+        {
+          "optionsnum": "C",
+          "options": "备份"
+        },
+        {
+          "optionsnum": "D",
+          "options": "抽取"
+        }
+      ]
+    },
+    {
+      "id": "ff8080818c4360c4018c6b0da2aa565a",
+      "type": "1",
+      "topic": "在一个数据标注项目的顺利完成过程中，通常需要涉及到（）等多个方面的合作。",
+      "parsing": "ABCD",
+      "options": [
+        {
+          "optionsnum": "A",
+          "options": "销售部"
+        },
+        {
+          "optionsnum": "B",
+          "options": "项目部"
+        },
+        {
+          "optionsnum": "C",
+          "options": "生产部和平台部"
+        },
+        {
+          "optionsnum": "D",
+          "options": "资源部和财务部"
+        }
+      ]
+    }
+  ]
+}
