@@ -527,7 +527,7 @@
         background: #dc3545;
         color: white;
       }
-      @media (max-width: 992px) {
+      @media (max-width: 750px) {
         .exam-wrapper {
           flex-direction: column;
         }
@@ -538,6 +538,10 @@
         }
         .nav-numbers {
           grid-template-columns: repeat(auto-fill, 32px);
+        }
+        .navigation-sidebar.active,
+        .navigation-scrollbar {
+          display: none !important;
         }
       }
       @media (max-width: 640px) {
