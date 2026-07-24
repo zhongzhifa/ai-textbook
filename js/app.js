@@ -12,8 +12,8 @@
       const WRONG_BOOK_KEY = "aiTrainerTheoryWrongBookV1";
       const EXAM_HISTORY_KEY = "aiTrainerTheoryExamHistoryV1";
       const QUESTION_DATA_SOURCES = {
-        single: "data/single-questions.json",
-        multi: "data/multi-questions.json",
+        single: "data/single-questions.json?v=c0fc79e5baae",
+        multi: "data/multi-questions.json?v=54e467e676da",
       };
       const screens = document.querySelectorAll(".screen");
       const navigationSidebar = document.getElementById("navigationSidebar");
@@ -28,6 +28,17 @@
       let shouldPersistExamProgress = true;
       document.addEventListener("DOMContentLoaded", function () {
         document.addEventListener("keydown", handleKeyboardShortcut);
+        document.querySelectorAll(".btn").forEach((a) => {
+          a.addEventListener("click", function () {
+            if (this.disabled) return;
+            this.classList.remove("is-clicked");
+            void this.offsetWidth;
+            this.classList.add("is-clicked");
+            window.setTimeout(() => {
+              this.classList.remove("is-clicked");
+            }, 500);
+          });
+        });
         navigationSidebar.addEventListener("scroll", L, { passive: true });
         window.addEventListener("resize", M);
         window.addEventListener("pagehide", persistExamProgress);

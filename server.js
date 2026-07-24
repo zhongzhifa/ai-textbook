@@ -1,4 +1,5 @@
 const http = require("http");
+const crypto = require("crypto");
 const fs = require("fs");
 const path = require("path");
 
@@ -32,7 +33,23 @@ const server = http.createServer((request, response) => {
       response.end(error.code === "ENOENT" ? "Not Found" : "Server Error");
       return;
     }
-    response.writeHead(200, { "Content-Type": types[path.extname(filePath)] || "application/octet-stream" });
+    const etag = `"${crypto.createHash("sha256").update(content).digest("hex")}"`;
+    if (request.headers["if-none-match"] === etag) {
+      response.writeHead(304, { ETag: etag });
+      response.end();
+      return;
+    }
+    const isDocument = path.extname(filePath) === ".html" || path.extname(filePath) === ".webmanifest";
+    const isVersioned = url.searchParams.has("v");
+    response.writeHead(200, {
+      "Content-Type": types[path.extname(filePath)] || "application/octet-stream",
+      ETag: etag,
+      "Cache-Control": isDocument
+        ? "no-cache"
+        : isVersioned
+          ? "public, max-age=31536000, immutable"
+          : "no-cache",
+    });
     response.end(content);
   });
 });
