@@ -8,6 +8,7 @@
         mode: "exam",
       };
       const REVIEW_PROGRESS_KEY = "aiTrainerTheoryReviewProgressV1";
+      const EXAM_PROGRESS_KEY = "aiTrainerTheoryExamProgressV1";
       const WRONG_BOOK_KEY = "aiTrainerTheoryWrongBookV1";
       const EXAM_HISTORY_KEY = "aiTrainerTheoryExamHistoryV1";
       const QUESTION_DATA_SOURCES = {
@@ -24,16 +25,19 @@
       );
       let navigationScrollTimer = null;
       let currentExamResult = null;
+      let shouldPersistExamProgress = true;
       document.addEventListener("DOMContentLoaded", function () {
         document.addEventListener("keydown", handleKeyboardShortcut);
         navigationSidebar.addEventListener("scroll", L, { passive: true });
         window.addEventListener("resize", M);
+        window.addEventListener("pagehide", persistExamProgress);
         window.addEventListener("focus", refreshModeSummary);
         window.addEventListener("visibilitychange", refreshModeSummary);
         window.addEventListener("storage", function (a) {
           if (
             a.key === WRONG_BOOK_KEY ||
             a.key === REVIEW_PROGRESS_KEY ||
+            a.key === EXAM_PROGRESS_KEY ||
             a.key === EXAM_HISTORY_KEY
           ) {
             refreshModeSummary();
@@ -80,6 +84,7 @@
           i.singleQuestions = q(singleData.rows, "single");
           i.multiQuestions = q(multiData.rows, "multi");
           if (i.singleQuestions.length > 0 && i.multiQuestions.length > 0) {
+            if (restoreExamProgress()) return;
             refreshModeSummary();
             showScreen("mode");
           } else {
@@ -160,6 +165,94 @@
       function getQuestionKey(a) {
         if (!a) return "";
         return a.id || `${a.type}:${a.topic}`;
+      }
+      function clearExamProgress() {
+        shouldPersistExamProgress = false;
+        try {
+          localStorage.removeItem(EXAM_PROGRESS_KEY);
+        } catch (a) {
+          console.warn("清空模拟考试进度失败:", a);
+        }
+      }
+      function persistExamProgress() {
+        if (
+          !shouldPersistExamProgress ||
+          i.mode !== "exam" ||
+          !i.currentQuestions.length
+        )
+          return;
+        const a = i.currentQuestions.map(getQuestionKey);
+        if (a.some((a) => !a)) {
+          console.warn("保存模拟考试进度失败: 存在缺少标识的题目");
+          return;
+        }
+        try {
+          localStorage.setItem(
+            EXAM_PROGRESS_KEY,
+            JSON.stringify({
+              questionKeys: a,
+              currentQuestionIndex: i.currentQuestionIndex,
+              userAnswers: i.userAnswers,
+              reviewRevealedAnswers: i.reviewRevealedAnswers,
+              savedAt: Date.now(),
+            }),
+          );
+        } catch (a) {
+          console.warn("保存模拟考试进度失败:", a);
+        }
+      }
+      function restoreExamProgress() {
+        try {
+          const a = localStorage.getItem(EXAM_PROGRESS_KEY);
+          if (!a) return false;
+          const b = JSON.parse(a);
+          if (
+            !b ||
+            !Array.isArray(b.questionKeys) ||
+            b.questionKeys.length !== 80
+          ) {
+            clearExamProgress();
+            return false;
+          }
+          const c = new Map(
+            [...i.singleQuestions, ...i.multiQuestions].map((a) => [
+              getQuestionKey(a),
+              a,
+            ]),
+          );
+          const d = b.questionKeys.map((a) => c.get(a));
+          if (d.some((a) => !a)) {
+            clearExamProgress();
+            return false;
+          }
+          i.currentQuestions = d;
+          i.mode = "exam";
+          shouldPersistExamProgress = true;
+          i.userAnswers =
+            b.userAnswers && typeof b.userAnswers === "object"
+              ? b.userAnswers
+              : {};
+          i.reviewRevealedAnswers =
+            b.reviewRevealedAnswers &&
+            typeof b.reviewRevealedAnswers === "object"
+              ? b.reviewRevealedAnswers
+              : {};
+          i.currentQuestionIndex = Math.min(
+            Math.max(Number(b.currentQuestionIndex) || 0, 0),
+            i.currentQuestions.length - 1,
+          );
+          x();
+          document.getElementById("navigationSidebar").classList.add("active");
+          y();
+          showScreen("exam");
+          scheduleCurrentNavVisibilityCheck();
+          M();
+          return true;
+        } catch (a) {
+          console.warn("恢复模拟考试进度失败:", a);
+          clearExamProgress();
+          return false;
+        }
       }
       function getWrongBook() {
         try {
@@ -369,6 +462,7 @@
       function b(a) {
         showModeMessage("");
         if (a === "exam") {
+          shouldPersistExamProgress = true;
           const b = 70;
           const c = 10;
           if (i.singleQuestions.length < b) {
@@ -422,6 +516,7 @@
             .classList.remove("active");
         }
         y();
+        persistExamProgress();
         showScreen("exam");
         scheduleCurrentNavVisibilityCheck();
         M();
@@ -462,6 +557,7 @@
             }
             i.currentQuestionIndex = f;
             J();
+            persistExamProgress();
             y();
           });
           if (e.type === "single") {
@@ -723,6 +819,7 @@
         } else {
           delete i.userAnswers[i.currentQuestionIndex];
         }
+        persistExamProgress();
       }
       function K() {
         if (i.mode === "exam" || i.mode === "review" || i.mode === "wrong") {
@@ -830,6 +927,7 @@
         G();
         z();
         J();
+        persistExamProgress();
         A();
         updateNextButtonText();
         if (d && a < i.currentQuestions.length - 1) {
@@ -875,6 +973,7 @@
           e();
         } else {
           J();
+          persistExamProgress();
           y();
         }
       }
@@ -882,6 +981,7 @@
         B();
         i.currentQuestionIndex--;
         J();
+        persistExamProgress();
         y();
       }
       function e() {
@@ -897,6 +997,9 @@
           });
           const e = createExamHistoryRecord(b, c, d);
           saveExamHistoryRecord(e);
+          if (i.mode === "exam") {
+            clearExamProgress();
+          }
           renderExamResult(e);
           showScreen("result");
         } catch (a) {
